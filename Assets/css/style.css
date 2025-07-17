@@ -97,3 +97,51 @@ nav{
 .contDerecha img{
     border-radius: 8px;
 }
+
+/*Estilos fotter*/
+
+footer{
+    background-color: #007BFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedorPieInformacion{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5%;
+    justify-content: center;
+}
+
+.contenedorPieInformacion-img {
+    width: 15%;
+    height: auto;
+}
+
+.contenedorPieInformacion-img img{
+    width: 100%;
+    height: auto;
+}
+
+.contenedorPieInformacion-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.contenedorPieInformacion-info-telefono, .contenedorPieInformacion-info-email{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.contenedorPieRedes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 4vh;
+    color: white;
+}
