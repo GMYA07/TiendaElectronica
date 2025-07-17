@@ -9,6 +9,7 @@
 </head>
 <body>
     <?php include './views/cabecera/cabecera.php'; ?>
+    <?php include './views/principal/principal.php';?>
 </body>
 
 </html>
