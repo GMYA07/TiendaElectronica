@@ -145,3 +145,17 @@ footer{
     font-size: 4vh;
     color: white;
 }
+
+/**/
+@media (max-width:500px) {
+    footer{
+        flex-direction: column;
+    }
+
+    .contenedorPieRedes-iconos{
+        display: flex;
+        flex-direction: row;
+        gap: 50%;
+        justify-content: center;
+    }
+}
