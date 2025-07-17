@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Arreglos Menu*/
+
+nav{
+    background-color: #333333;
+}
+
+.contenedorMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedorLogo{
+    display: flex;
+    justify-content: center;
+}
+.logoNav{
+    width: 50%;
+    height: auto;
+}
+
+.contenedorListaItems{
+    width: 80%;
+    height: auto;
+}
+
+.itemsMenu{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    
+}
+
+.itemsMenu a{
+    color: white;
+    font-size: 2vh;
+}
+
+.itemsMenu a:hover{
+    color: #007BFF;
+}
+
+.contenedorBotonesAcciones{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenedorBotonesAcciones i{
+    font-size: 4vh;
+    color: #007BFF;
+}
+
+.contenedorBotonesAcciones i:hover{
+    color:white
+}
