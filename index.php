@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php include './views/cabecera/cabecera.php'; ?>
-    <?php include './views/principal/principal.php';?>
+    <?php include './views/catalogo/celular.php';?>
     <?php include './views/pie/pie.php'; ?>
 </body>
 

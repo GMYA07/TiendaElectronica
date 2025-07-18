@@ -310,7 +310,46 @@ footer{
     font-size: 2em;
 }
 
-/**/
+
+/*Estilos para catalogo*/
+
+.contenedorGeneralCatalogo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+
+.contenedorFiltrador{
+    width: 20%;
+    max-width: 20%;
+    
+}
+
+.formFiltrar{
+    border: 0.5em solid black;
+    padding: 5%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.contenedorProductos{
+    width: 80%;
+    max-width: 80%;
+}
+
+.contenedorProductos-fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+
 @media (max-width:500px) {
     footer{
         flex-direction: column;
@@ -337,6 +376,20 @@ footer{
     }
     .contenedorBeneficios-interno-beneficio{
         width: 100%;
+        margin-top: 5%;
+    }
+
+    /*Parte catalogo*/
+    .contenedorGeneralCatalogo, .contenedorProductos-fila{
+        flex-direction: column;
+    }
+
+    .contenedorFiltrador{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cardCatalogo{
         margin-top: 5%;
     }
 
