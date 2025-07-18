@@ -369,6 +369,7 @@ footer{
 .contenedorFormulario{
     width: 40%;
     max-width: 40%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,7 +378,6 @@ footer{
 
 .formularioLogin{
     display: flex;
-    height: 35vh;
     padding: 5%;
     flex-direction: column;
     gap: 2vh;
