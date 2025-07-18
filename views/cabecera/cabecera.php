@@ -3,7 +3,7 @@
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand contenedorLogo" href="#">
+        <a class="navbar-brand contenedorLogo" href="./index.php?ruta=./views/principal/principal">
             <img class="logoNav" src="./Assets/img/logoEmpresa.png" alt="">
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,7 +29,7 @@
                         <a class="nav-link" aria-current="page" href="#">Promociones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Celulares</a>
+                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/catalogo/celular">Celulares</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Gaming</a>
@@ -43,7 +43,7 @@
                 </ul>
             </div>
             <div class="container contenedorBotonesAcciones">
-                <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <a href="./index.php?ruta=./views/inicioSesion/inicioSesion"><i class="fa fa-user" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
             </div>
         </div>

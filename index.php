@@ -8,7 +8,9 @@
     <?php include './php/enlaces/enlaces.php'; ?>
 </head>
 <body>
-    <?php include './views/inicioSesion/inicioSesion.php';?>
+    <?php include './views/cabecera/cabecera.php';?>
+    <?php include './php/redireccion/redireccion.php';?>
+    <?php include './views/pie/pie.php';?>
 </body>
 
 </html>
