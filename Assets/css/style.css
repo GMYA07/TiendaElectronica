@@ -98,6 +98,66 @@ nav{
     border-radius: 8px;
 }
 
+/*Estilos titulo*/
+.contenedorTitulo, .contenedorBotones{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
+
+.contenedorTitulo h2{
+    font-size: 4.5vh;
+    font-weight: bold;
+}
+
+/*Estilos targetas*/
+.slide{
+    margin-bottom: 4%;
+}
+.card{
+  border:  0.3em solid black;
+  background-color: #333333;
+}
+
+.card-body{
+    color: white;
+}
+
+
+.card-precio, .card-promocion{
+    background-color: #007BFF;
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.card-promocion{
+    font-size: 0.8em;
+    margin-top: 3%;
+}
+
+.card-boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%; /* o un ancho fijo */
+  display: block; /* o inline-block si estás en línea */
+  font-size: 1em;
+}
+
 /*Estilos fotter*/
 
 footer{
@@ -146,6 +206,110 @@ footer{
     color: white;
 }
 
+.contenedorBotones button, #vermasNovedades{
+    width: 20vw;
+    padding: 0.9em;
+    font-weight: bold;
+}
+
+.contenedorNovedades{
+    padding: 1%;
+    background-color: #F2F2F2;
+    margin-bottom: 3%;
+}
+
+.contenedorOfertas{
+    background-color: #007BFF;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+/*Estilos categoria*/
+.contenedorCategorias{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.categoria{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10%;
+}
+
+.categoria p{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.categoria-img{
+    background-color: #007BFF;
+    display: flex;
+    justify-content: center;
+    padding: 25%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.categoria-img img{
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+/*Beneficios*/
+
+.contenedorBeneficios{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.contenedorBeneficios-interno{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    justify-content: flex-end;
+}
+
+.contenedorBeneficios-interno-beneficio{
+    background-color: black;
+    width: 30%;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3vh;
+    gap: 3%;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+.contenedorBeneficios-interno-beneficio i{
+    font-size: 2em;
+}
+
 /**/
 @media (max-width:500px) {
     footer{
@@ -158,4 +322,22 @@ footer{
         gap: 50%;
         justify-content: center;
     }
+
+    .contDerecha{
+        display: none;
+    }
+    .impar{
+        display: none;
+    }
+    .contenedorCategorias{
+        flex-direction: column;
+    }
+    .contenedorBeneficios-interno{
+        flex-direction: column;
+    }
+    .contenedorBeneficios-interno-beneficio{
+        width: 100%;
+        margin-top: 5%;
+    }
+
 }
