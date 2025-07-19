@@ -27,11 +27,11 @@
             <button type="submit" class="btn btn-primary mb-3 w-100">Filtrar</button>
         </form>
     </div>
-    <div class="container contenedorProductos">
+    <div class="container contenedorProductos ">
         <div class="container p-4 contenedorTitulo">
             <h1 class="text-center"><b>Celulares</b></h1>
         </div>
-        <div class="container contenedorProductos-fila">
+        <div class="container container-sm d-flex  justify-content-around contenedorProductos-fila">
             <div class="card cardCatalogo" style="width: 18rem;">
                 <img src="./Assets/img/productos/nintendoSwitch2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-        <div class="container contenedorProductos-fila">
+        <div class="container-sm d-flex  justify-content-around contenedorProductos-fila">
             <div class="card cardCatalogo" style="width: 18rem;">
                 <img src="./Assets/img/productos/nintendoSwitch2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">

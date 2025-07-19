@@ -345,7 +345,6 @@ footer{
 .contenedorProductos-fila{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 5%;
     margin-top: 5%;
 }

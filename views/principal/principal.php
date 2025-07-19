@@ -292,7 +292,7 @@
     <div id="carouselExampleControls3" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                <div class="container-sm d-flex  justify-content-around">
                     <div class="card  par" style="width: 18rem;">
                         <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
