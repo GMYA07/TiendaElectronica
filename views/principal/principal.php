@@ -35,7 +35,7 @@
         <div class="carousel-item active">
             <div class="card-wrapper container-sm d-flex  justify-content-around">
                 <div class="card  par" style="width: 18rem;">
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="...">
+                    <a href="./index.php?ruta=./views/producto/producto"><img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Laptop lenovo ideapad 1 proc. intel core i5 1235u ram 8gb almacenamiento ssd 512gb pantalla tactil fhd 15.6p w11hsm 82dq00hmus abyss blue</h5>
                     </div>
