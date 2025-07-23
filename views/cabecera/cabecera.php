@@ -32,6 +32,9 @@
                         <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/catalogo/celular">Celulares</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/usuarios/usuarios">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Gaming</a>
                     </li>
                     <li class="nav-item">
