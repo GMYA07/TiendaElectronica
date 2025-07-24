@@ -390,6 +390,29 @@ footer{
     border: #007BFF solid 0.3em;
 }
 
+/*Tab Cruds*/
+
+.ContenedorTabs ul{
+    border-color: #007BFF;
+}
+.ContenedorTabs li{
+    margin-right: 1%;
+}
+.ContenedorTabs button{
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+}
+
+.ContenedorTabs button:hover{
+    color: white;
+   
+}
+
+.tablaStyles thead{
+    background-color: #333333;
+}
+
 @media (max-width:500px) {
     footer{
         flex-direction: column;
