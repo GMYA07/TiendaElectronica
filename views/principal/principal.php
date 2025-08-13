@@ -1,6 +1,6 @@
 <div class="container contenedorAnuncios w-100">
     <div class="container w-100 ">
-        <div id="carouselExample" class="carousel slide">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active c-item">
                     <img src="./Assets/img/imgBanner1.jpg" class="d-block" alt="...">
@@ -12,14 +12,6 @@
                     <img src="./Assets/img/imgBanner3.jpg" class="d-block" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </div>
     <div class="container w-50 contDerecha">
@@ -30,7 +22,7 @@
     <h2>Lo más vendido</h2>
 </div>
 
-<div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="card-wrapper container-sm d-flex  justify-content-around">
@@ -86,9 +78,9 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
                 <div class="card  par" style="width: 18rem;">
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="...">
+                    <a href="./index.php?ruta=./views/producto/producto"><img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Laptop lenovo ideapad 1 proc. intel core i5 1235u ram 8gb almacenamiento ssd 512gb pantalla tactil fhd 15.6p w11hsm 82dq00hmus abyss blue</h5>
                     </div>
@@ -139,14 +131,15 @@
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <!-- Botones de navegación mejorados -->
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 
 <div class="container contenedorTitulo">
@@ -158,12 +151,12 @@
 </div>
 
 <div class="container contenedorNovedades">
-    <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="card-wrapper container-sm d-flex  justify-content-around">
                     <div class="card  par" style="width: 18rem;">
-                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="...">
+                        <a href="./index.php?ruta=./views/producto/producto"><img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h5 class="card-title">Laptop lenovo ideapad 1 proc. intel core i5 1235u ram 8gb almacenamiento ssd 512gb pantalla tactil fhd 15.6p w11hsm 82dq00hmus abyss blue</h5>
                         </div>
@@ -214,9 +207,9 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="card-wrapper container-sm d-flex   justify-content-around">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
                     <div class="card  par" style="width: 18rem;">
-                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="...">
+                        <a href="./index.php?ruta=./views/producto/producto"><img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h5 class="card-title">Laptop lenovo ideapad 1 proc. intel core i5 1235u ram 8gb almacenamiento ssd 512gb pantalla tactil fhd 15.6p w11hsm 82dq00hmus abyss blue</h5>
                         </div>
@@ -267,14 +260,15 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+        <!-- Botones de navegación mejorados -->
+        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
     <div class="container contenedorBotonVerMas ">
         <div class="card-boton">
