@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-sm d-flex  justify-content-around contenedorProductos-fila">
+        <div class="container container-sm d-flex  justify-content-around contenedorProductos-fila">
             <div class="card cardCatalogo" style="width: 18rem;">
                 <img src="./Assets/img/productos/nintendoSwitch2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
