@@ -1,0 +1,33 @@
+
+.tablaEstilos{
+    border: #007BFF 7px solid;
+    
+}
+
+.encabezadoTabla, .pieTabla{
+    background-color:#007BFF;
+}
+
+
+.tablaEstilos{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.encabezadoTabla th{
+    color: white;
+    padding: 1.5rem;
+}
+
+.table-responsive input{
+    border: 3px solid #007BFF;
+}
+
+.contenedorAcciones{
+    background-color: #007BFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

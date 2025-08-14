@@ -1,20 +1,70 @@
 <div class="container ContenedorTabs mt-5">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="usuarios-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Usuarios</button>
+            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#usuario" type="button" role="tab" aria-controls="usuario" aria-selected="true">Usuarios</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Productos</button>
+            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#productos" type="button" role="tab" aria-controls="productos" aria-selected="false">Productos</button>
         </li>
     </ul>
 </div>
 
 <div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="usuarios-tab" tabindex="0">
-        <div class="container table-responsive mt-3 mb-5">
-            <table id="example" class="table table-striped">
+    <div class="tab-pane fade show active" id="usuario" role="tabpanel" aria-labelledby="home-tab">
+        <div class="container contenedorAcciones mt-5 p-4">
+            <div>
+                <h2 class="text-white text-center">Acciones</h2>
+            </div>
+            <div class="d-flex justify-content-around mt-4">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#agregarUsuario"> <i class="fa fa-plus" aria-hidden="true"></i> Agregar Usuario</button>
+                <button type="button" class="btn btn-danger"><i class="fa fa-minus" aria-hidden="true"></i> Eliminar Usuario</button>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editarUsuario"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar Usuario</button>
+            </div>
+        </div>
+        <!-- Modal Usuarios-->
+        <div class="modal fade" id="agregarUsuario" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Agregar Usuario</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="editarUsuario" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Editar Usuario</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container table-responsive mt-3 mb-5 mw-100">
+            <table id="example" class="table table-striped w-100 mt-2 mb-3 tablaEstilos">
                 <thead>
-                    <tr>
+                    <tr class="encabezadoTabla">
                         <th>Nombre Usuario</th>
                         <th>Position</th>
                         <th>Office</th>
@@ -153,28 +203,66 @@
                         <td>$198,500</td>
                     </tr>
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Age</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
-                    </tr>
-                </tfoot>
             </table>
         </div>
         <script>
             new DataTable('#example');
         </script>
     </div>
-    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="usuarios-tab" tabindex="0">
-        <div class="container table-responsive mt-3 mb-5">
-            <table id="example2" class="table table-striped">
+    <div class="tab-pane fade" id="productos" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="container contenedorAcciones mt-5 p-4">
+            <div>
+                <h2 class="text-white text-center">Acciones</h2>
+            </div>
+            <div class="d-flex justify-content-around mt-4">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#agregarProducto" > <i class="fa fa-plus" aria-hidden="true"></i> Agregar Producto</button>
+                <button type="button" class="btn btn-danger"><i class="fa fa-minus" aria-hidden="true"></i> Eliminar Producto</button>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editarProducto"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar Producto</button>
+            </div>
+        </div>
+        <!-- Modal Productos-->
+        <div class="modal fade" id="agregarProducto" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Agregar Producto</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="editarProducto" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Editar Producto</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container table-responsive mt-3 mb-5 mw-100">
+            <table id="example2" class="table table-striped w-100 mt-2 mb-3 tablaEstilos">
                 <thead>
-                    <tr>
+                    <tr class="encabezadoTabla">
                         <th>Producto</th>
                         <th>Position</th>
                         <th>Office</th>
@@ -329,4 +417,5 @@
             new DataTable('#example2');
         </script>
     </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
 </div>
