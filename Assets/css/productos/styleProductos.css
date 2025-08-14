@@ -1,0 +1,40 @@
+/*Parte para mostrar productos*/
+.contenedorProductoInfo {
+            min-height: 500px;
+        }
+        
+        /* Controlar el tamaño del carousel */
+        .contenedorProductoInfo-informacion-carousel {
+            max-height: 400px;
+            height: 400px;
+        }
+        
+        .contenedorProductoInfo-informacion-carousel .carousel-inner {
+            height: 100%;
+        }
+        
+        .contenedorProductoInfo-informacion-carousel .carousel-item {
+            height: 100%;
+        }
+        
+        .contenedorProductoInfo-informacion-carousel .carousel-item img {
+            height: 100%;
+            object-fit: cover; /* o cover si prefieres que llene todo el espacio */
+            background-color: #f8f9fa;
+        }
+        
+        
+        
+        /* Alinear el contenido de información */
+        .contenedorProductoInfo-informacion {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        /* Opcional: Agregar sombra al carousel para mejor visualización */
+        .contenedorProductoInfo-informacion-carousel {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }

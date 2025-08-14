@@ -20,3 +20,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
 
 <link rel="stylesheet" href="./Assets/css/style.css">
+<link rel="stylesheet" href="./Assets/css/productos/styleProductos.css">

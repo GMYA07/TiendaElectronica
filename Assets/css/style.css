@@ -438,6 +438,7 @@ footer{
     background-color: #333333;
 }
 
+
 @media (max-width:500px) {
     footer{
         flex-direction: column;
@@ -499,20 +500,4 @@ footer{
         max-width: 100%;
         margin-top: 15%;
     }
-
-    /*Parte info de producto.php*/
-    .contenedorProductoInfo{
-        flex-direction: column;
-    }
-    .contenedorProductoInfo-informacion{
-        width: 100%;
-        max-width: 100%;
-        border-right: 0;
-        border-top: #007BFF solid 1px;
-    }
-    .contenedorProductoInfo-informacion-carousel{
-        width: 100% !important; 
-        max-width: 100% !important;
-    }
-
 }

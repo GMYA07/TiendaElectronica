@@ -1,42 +1,40 @@
 <div class="container-fluid">
     <div class="row d-flex justify-content-center mt-5 mb-5 contenedorProductoInfo">
-        <div id="carouselExampleIndicators" class="carousel slide w-25 col-6 contenedorProductoInfo-informacion-carousel ">
-            <div class="carousel-indicators bg-dark">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="col-md-5 col-lg-4 mt-5">
+            <div id="carouselExampleControls" class="carousel slide contenedorProductoInfo-informacion-carousel" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="d-block w-100" alt="Laptop Lenovo Vista 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/img/productos/ups.jpg" class="d-block w-100" alt="Laptop Lenovo Vista 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="d-block w-100" alt="Laptop Lenovo Vista 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-        <div class="col-6 p-5  h-50 border-start border-primary contenedorProductoInfo-informacion ">
+
+        <div class="col-md-7 col-lg-6 p-4 border-left border-primary contenedorProductoInfo-informacion">
             <div class="container-fluid">
-                <p class="fs-3"><b>Lenovo</b></p>
-                <p class="fs-5"><b>Laptop lenovo ideapad 1 proc. intel core i5 1235u ram 8gb almacenamiento ssd 512gb pantalla tactil fhd 15.6p w11hsm 82dq00hmus abyss blue</b></p>
+                <p class="h3 mb-3"><strong>Lenovo</strong></p>
+                <p class="h5 mb-4"><strong>Laptop lenovo ideapad 1 proc. intel core i5 1235u ram 8gb almacenamiento ssd 512gb pantalla tactil fhd 15.6p w11hsm 82dq00hmus abyss blue</strong></p>
             </div>
-            <div class="container-fluid mt-5">
-                <p class="fs-1 text-primary"><b>$645</b></p>
+            <div class="container-fluid mt-4">
+                <p class="display-4 text-primary mb-4"><strong>$645</strong></p>
             </div>
-            <div class="container-fluid mt-5 d-flex justify-content-evenly">
-                <button type="button" class="btn w-25 p-3  btn-primary">Agregar al carrito</button>
-                <button type="button" class="btn w-50 p-3 btn-primary">Mas Informacion del producto</button>
+            <div class="container-fluid mt-4 d-flex justify-content-between">
+                <button type="button" class="btn btn-primary px-4 py-3 mr-3" style="flex: 1;">Agregar al carrito</button>
+                <button type="button" class="btn btn-outline-primary px-4 py-3" style="flex: 2;">Más Información del producto</button>
             </div>
         </div>
     </div>
@@ -45,7 +43,7 @@
     <h2>Productos relacionados</h2>
 </div>
 
-<div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="card-wrapper container-sm d-flex  justify-content-around">
@@ -101,9 +99,9 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
                 <div class="card  par" style="width: 18rem;">
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="...">
+                    <a href="./index.php?ruta=./views/producto/producto"><img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Laptop lenovo ideapad 1 proc. intel core i5 1235u ram 8gb almacenamiento ssd 512gb pantalla tactil fhd 15.6p w11hsm 82dq00hmus abyss blue</h5>
                     </div>
@@ -154,12 +152,13 @@
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <!-- Botones de navegación mejorados -->
+    <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
