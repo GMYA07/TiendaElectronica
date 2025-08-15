@@ -24,7 +24,7 @@
         <!-- Modal Usuarios-->
         <div class="modal fade" id="agregarUsuario" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content modalDiseno">
                     <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">Agregar Usuario</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -32,18 +32,54 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <form class="formulario">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nombres</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Apellidos</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Correo</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleCiudad">Ciudad</label>
+                                <select class="selectpicker" data-width="100%" data-style="btn-primary">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                        </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
+
+                        <button type="button" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Registrar</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="modal fade" id="editarUsuario" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content modalDiseno">
                     <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">Editar Usuario</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -51,11 +87,47 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <form class="formulario">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nombres</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Apellidos</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Correo</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleCiudad">Ciudad</label>
+                                <select class="selectpicker" data-width="100%" data-style="btn-primary">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                        </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
+
+                        <button type="button" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</button>
                     </div>
                 </div>
             </div>
@@ -215,7 +287,7 @@
                 <h2 class="text-white text-center">Acciones</h2>
             </div>
             <div class="d-flex justify-content-around mt-4">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#agregarProducto" > <i class="fa fa-plus" aria-hidden="true"></i> Agregar Producto</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#agregarProducto"> <i class="fa fa-plus" aria-hidden="true"></i> Agregar Producto</button>
                 <button type="button" class="btn btn-danger"><i class="fa fa-minus" aria-hidden="true"></i> Eliminar Producto</button>
                 <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editarProducto"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar Producto</button>
             </div>
@@ -223,7 +295,7 @@
         <!-- Modal Productos-->
         <div class="modal fade" id="agregarProducto" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content modalDiseno">
                     <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">Agregar Producto</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -231,18 +303,46 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <form class="formulario">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nombre Producto</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-archive" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleCiudad">Marca</label>
+                                <select class="selectpicker" data-width="100%" data-style="btn-primary">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Descripcion</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+                                    </div>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            
+                        </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
+
+                        <button type="button" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Registrar</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="modal fade" id="editarProducto" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content modalDiseno">
                     <div class="modal-header">
                         <h5 class="modal-title" id="staticBackdropLabel">Editar Producto</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -250,11 +350,39 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <form class="formulario">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nombre Producto</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-archive" aria-hidden="true"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleCiudad">Marca</label>
+                                <select class="selectpicker" data-width="100%" data-style="btn-primary">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Descripcion</label>
+                                <div class="input-group has-validation">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+                                    </div>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            
+                        </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
+
+                        <button type="button" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</button>
                     </div>
                 </div>
             </div>

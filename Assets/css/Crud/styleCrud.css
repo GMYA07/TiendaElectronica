@@ -31,3 +31,45 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+.modalDiseno{
+    border: 6px solid #007BFF;
+}
+
+.modalDiseno span{
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.modalDiseno h5{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.modal-header{
+    border: 0;
+}
+.modal-footer{
+    border-top:0;
+}
+.modal-footer button{
+    width: 100%;
+}
+.formulario{
+    padding: 1.5rem;
+}
+
+.formulario .form-group{
+    margin-bottom: 2rem;
+}
+
+.formulario input{
+    border: 3px solid #007BFF;
+}
+
+.formulario label{
+    font-weight: bold;
+}
