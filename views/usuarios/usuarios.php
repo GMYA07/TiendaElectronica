@@ -36,7 +36,7 @@
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nombres</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -45,7 +45,7 @@
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Apellidos</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -54,7 +54,7 @@
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Correo</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -62,10 +62,10 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleCiudad">Ciudad</label>
-                                <select class="selectpicker" data-width="100%" data-style="btn-primary">
-                                    <option>Mustard</option>
-                                    <option>Ketchup</option>
-                                    <option>Relish</option>
+                                <select class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
+                                    <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                                    <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                                    <option data-tokens="frosting">Sugar, Spice and all things nice</option>
                                 </select>
                             </div>
                         </form>
@@ -91,7 +91,7 @@
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nombres</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -100,7 +100,7 @@
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Apellidos</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -109,7 +109,7 @@
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Correo</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -117,11 +117,12 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleCiudad">Ciudad</label>
-                                <select class="selectpicker" data-width="100%" data-style="btn-primary">
-                                    <option>Mustard</option>
-                                    <option>Ketchup</option>
-                                    <option>Relish</option>
+                                <select class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
+                                    <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                                    <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                                    <option data-tokens="frosting">Sugar, Spice and all things nice</option>
                                 </select>
+
                             </div>
                         </form>
                     </div>
@@ -133,7 +134,7 @@
             </div>
         </div>
 
-        <div class="container table-responsive mt-3 mb-5 mw-100">
+        <div class="container table-responsive mt-3 mb-5">
             <table id="example" class="table table-striped w-100 mt-2 mb-3 tablaEstilos">
                 <thead>
                     <tr class="encabezadoTabla">
@@ -307,7 +308,7 @@
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nombre Producto</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-archive" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -315,22 +316,22 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleCiudad">Marca</label>
-                                <select class="selectpicker" data-width="100%" data-style="btn-primary">
-                                    <option>Mustard</option>
-                                    <option>Ketchup</option>
-                                    <option>Relish</option>
+                                <select class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
+                                    <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                                    <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                                    <option data-tokens="frosting">Sugar, Spice and all things nice</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Descripcion</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
                                     </div>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                            
+
                         </form>
                     </div>
                     <div class="modal-footer">
@@ -354,7 +355,7 @@
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nombre Producto</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-archive" aria-hidden="true"></i></span>
                                     </div>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -362,22 +363,22 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleCiudad">Marca</label>
-                                <select class="selectpicker" data-width="100%" data-style="btn-primary">
-                                    <option>Mustard</option>
-                                    <option>Ketchup</option>
-                                    <option>Relish</option>
+                                <select class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
+                                    <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                                    <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                                    <option data-tokens="frosting">Sugar, Spice and all things nice</option>
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Descripcion</label>
                                 <div class="input-group has-validation">
-                                    <div class="input-group-prepend">
+                                    <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
                                     </div>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                            
+
                         </form>
                     </div>
                     <div class="modal-footer">
