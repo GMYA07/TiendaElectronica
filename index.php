@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electronics</title>
+    <?php include "./config/db.php"?>
     <?php include './php/enlaces/enlaces.php'; ?>
 </head>
 <body>
