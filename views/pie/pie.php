@@ -1,7 +1,7 @@
 <footer>
     <div class="container w-75 contenedorPieInformacion">
         <div class="container contenedorPieInformacion-img">
-            <img src="./Assets/img//logoEmpresa.png" alt="">
+            <img src="./Assets/img//logoEmpresaAlterno.png" alt="">
         </div>
         <div class="container contenedorPieInformacion-info">
             <div class="container contenedorPieInformacion-info-telefono">
