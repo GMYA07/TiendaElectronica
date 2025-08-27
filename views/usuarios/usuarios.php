@@ -303,41 +303,130 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <form class="formulario">
+                    <form action="./controller/productosController.php" method="POST" class="formulario" enctype="multipart/form-data">
+                        <div class="modal-body">
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Nombre Producto</label>
+                                <label for="exampleInputEmail1">Nombre producto</label>
                                 <div class="input-group has-validation">
                                     <div class="input-group-prepend logoInput">
-                                        <span class="input-group-text"><i class="fa fa-archive" aria-hidden="true"></i></span>
+                                        <span class="input-group-text" style="color: white; background-color: #007bff; border-color: #007bff;"><i class="fa fa-desktop" aria-hidden="true"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="text" name="nombre" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="exampleCiudad">Marca</label>
-                                <select class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
-                                    <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
-                                    <option data-tokens="mustard">Burger, Shake and a Smile</option>
-                                    <option data-tokens="frosting">Sugar, Spice and all things nice</option>
-                                </select>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleCiudad">Categoria</label>
+                                        <select name="id_categoria" required class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
+                                            <option value="1" data-tokens="ketchup mustard">Computadoras</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleCiudad">Marca</label>
+                                        <select name="id_marca" required class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
+                                            <option value="1" data-tokens="ketchup mustard">Lenovo</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Precio producto</label>
+                                        <div class="input-group has-validation">
+                                            <div class="input-group-prepend logoInput">
+                                                <span class="input-group-text" style="color: white; background-color: #007bff; border-color: #007bff;"><i class="fa fa-money" aria-hidden="true"></i></span>
+                                            </div>
+                                            <input type="number" required name="precio" require require class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Cantidad Stock</label>
+                                        <div class="input-group has-validation">
+                                            <div class="input-group-prepend logoInput">
+                                                <span class="input-group-text" style="color: white; background-color: #007bff; border-color: #007bff;"><i class="fa fa-archive" aria-hidden="true"></i></span>
+                                            </div>
+                                            <input type="number" required require name="stock" require class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Modelo</label>
+                                        <div class="input-group has-validation">
+                                            <div class="input-group-prepend logoInput">
+                                                <span class="input-group-text" style="color: white; background-color: #007bff; border-color: #007bff;"><i class="fa fa-archive" aria-hidden="true"></i></span>
+                                            </div>
+                                            <input type="text" required name="modelo" require class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Código alfanumérico único</label>
+                                        <div class="input-group has-validation">
+                                            <div class="input-group-prepend logoInput">
+                                                <span class="input-group-text" style="color: white; background-color: #007bff; border-color: #007bff;">
+                                                   <i class="fa fa-code" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" required name="sku" require class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="imagen5">Imagen producto</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend" style="background-color: #007bff; border-color: #007bff;">
+                                                <span class="input-group-text" style="color: white; background-color: #007bff; border-color: #007bff;">
+                                                    <i class="fa fa-image"></i>
+                                                </span>
+                                            </div>
+                                            <div class="custom-file">
+                                                <input type="file" required class="custom-file-input" id="imagen5" name="imagen" accept="image/*">
+                                                <label class="custom-file-label" for="imagen5">Seleccionar imagen...</label>
+                                            </div>
+                                        </div>
+                                        <small class="text-muted">JPG, PNG o GIF (máx. 5MB)</small>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleCiudad">Estado</label>
+                                        <select name="estado" required class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
+                                            <option value="activo" data-tokens="ketchup mustard">Activo</option>
+                                            <option value="inactivo" data-tokens="ketchup mustard">Inactivo</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Descripcion</label>
                                 <div class="input-group has-validation">
                                     <div class="input-group-prepend logoInput">
                                         <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
                                     </div>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea name="descripcion" required class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
 
-                        </form>
-                    </div>
-                    <div class="modal-footer">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" name="accion" value="agregar" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Registrar</button>
+                        </div>
+                    </form>
 
-                        <button type="button" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Registrar</button>
-                    </div>
                 </div>
             </div>
         </div>
@@ -388,7 +477,7 @@
                 </div>
             </div>
         </div>
-        <div class="container table-responsive mt-3 mb-5 mw-100">
+        <div class="container table-responsive mt-3 mb-5">
             <table id="example2" class="table table-striped w-100 mt-2 mb-3 tablaEstilos">
                 <thead>
                     <tr class="encabezadoTabla">
@@ -548,3 +637,4 @@
     </div>
     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
 </div>
+<script src="./Assets/js/preVisualizarImg.js"></script>
