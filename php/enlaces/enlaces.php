@@ -8,6 +8,8 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css">
 
+
+
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -19,6 +21,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
 
+<script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
 
 <link rel="stylesheet" href="./Assets/css/style.css">
 <link rel="stylesheet" href="./Assets/css/productos/styleProductos.css">
