@@ -288,9 +288,9 @@
                 <h2 class="text-white text-center">Acciones</h2>
             </div>
             <div class="d-flex justify-content-around mt-4">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#agregarProducto"> <i class="fa fa-plus" aria-hidden="true"></i> Agregar Producto</button>
-                <button type="button" class="btn btn-danger"><i class="fa fa-minus" aria-hidden="true"></i> Eliminar Producto</button>
-                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editarProducto"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar Producto</button>
+                <button type="button" class="btn bg-primary text-white" data-toggle="modal" data-target="#agregarProducto"> <i class="fa fa-plus" aria-hidden="true"></i> Agregar Producto</button>
+                <button type="button" class="btn bg-primary text-white"><i class="fa fa-minus" aria-hidden="true"></i> Eliminar Producto</button>
+                <button type="button" class="btn bg-primary text-white" data-toggle="modal" data-target="#editarProducto"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar Producto</button>
             </div>
         </div>
         <!-- Modal Productos-->
@@ -426,7 +426,7 @@
 
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" name="accion" value="agregar" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Registrar</button>
+                            <button type="submit" name="accion" value="agregar" class="btn bg-primary text-white"><i class="fa fa-plus" aria-hidden="true"></i> Registrar</button>
                         </div>
                     </form>
                 </div>
@@ -564,7 +564,7 @@
 
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" name="accion" value="agregar" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</button>
+                            <button type="submit" name="accion" value="agregar" class="btn bg-primary text-white"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar</button>
                         </div>
                     </form>
                 </div>
