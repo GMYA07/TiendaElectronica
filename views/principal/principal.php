@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="container contenedorAnuncios w-100">
     <div class="container w-100 ">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -443,47 +444,29 @@
 <div class="container contenedorTitulo">
     <h2>Categorias</h2>
 </div>
-<div class="container contenedorCategorias">
-    <div class="categoria">
-        <a href="">
-            <div class="categoria-img">
-                <img src="./Assets/img/categoria/iconoPc.png" alt="">
+<div class="container p-5">
+    <div class="row justify-content-center text-center">
+        <div class="col-auto contenedorCat">
+            <div class="circle">
+                <i class="fa fa-gamepad" aria-hidden="true"></i>
             </div>
-        </a>
-        <p>Pantallas</p>
-    </div>
-    <div class="categoria">
-        <a href="">
-            <div class="categoria-img">
-                <img src="./Assets/img/categoria/iconoConsola.png" alt="">
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 45px;">Pantallas</p>
+        </div>
+        <div class="col-auto contenedorCat">
+            <div class="circle">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
             </div>
-        </a>
-        <p>Gaming</p>
-    </div>
-    <div class="categoria">
-        <a href="">
-            <div class="categoria-img">
-                <img src="./Assets/img/categoria/iconoCelular.png" alt="">
+        </div>
+        <div class="col-auto contenedorCat">
+            <div class="circle">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
             </div>
-        </a>
-        <p>Celular</p>
-    </div>
-    <div class="categoria">
-
-        <a href="">
-            <div class="categoria-img">
-                <img src="./Assets/img/categoria/iconoPcCompleta.png" alt="">
+        </div>
+        <div class="col-auto contenedorCat">
+            <div class="circle">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
             </div>
-        </a>
-        <p>Computadoras</p>
-    </div>
-    <div class="categoria">
-        <a href="">
-            <div class="categoria-img">
-                <img src="./Assets/img/categoria/iconoAudio.png" alt="">
-            </div>
-        </a>
-        <p>Audio y Video</p>
+        </div>
     </div>
 </div>
 <div class="container contenedorTitulo">
