@@ -10,58 +10,81 @@ nav{
     background-color: #333333;
 }
 
-.contenedorMenu{
+/* CSS RESPONSIVE MEJORADO */
+
+.contenedorMenu {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
 }
 
-.contenedorLogo{
+.contenedorLogo {
     display: flex;
     justify-content: center;
-}
-.logoNav{
-    width: 50%;
-    height: auto;
+    flex-shrink: 0;
 }
 
-.contenedorListaItems{
+.logoNav {
+    width: 50%;
+    height: auto;
+    max-width: 200px;
+    min-width: 60px;
+}
+
+.contenedorListaItems {
     width: 80%;
     height: auto;
 }
 
-.itemsMenu{
+.itemsMenu {
     display: flex;
     gap: 5%;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
-.itemsMenu a{
+.itemsMenu a {
     color: white;
     font-size: 2vh;
+    min-font-size: 14px;
+    padding: 0.5rem 0.75rem;
+    white-space: nowrap;
 }
 
-.itemsMenu a:hover{
+.itemsMenu a:hover {
     color: #007BFF;
 }
 
-.contenedorBotonesAcciones{
-    width: 20%;
+.contenedorBotonesAcciones {
+    width: 15%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    min-width: 100px;
 }
 
-.contenedorBotonesAcciones i{
+.contenedorBotonesAcciones i {
     font-size: 4vh;
     color: #007BFF;
+    min-font-size: 18px;
 }
 
-.contenedorBotonesAcciones i:hover{
-    color:white
+.contenedorBotonesAcciones i:hover {
+    color: white;
 }
+
+/* NUEVA CLASE AGREGADA */
+.botonAccion {
+    padding: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*Editaremos la parte de los banner de anuncios*/
 
@@ -109,6 +132,14 @@ nav{
     height: 50px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    margin-left: 1%;;
+}
+
+.carousel-control-next {
+    margin-right: 1%;
 }
 
 .carousel-control-prev:hover,
@@ -237,11 +268,6 @@ footer{
     font-weight: bold;
 }
 
-.contenedorNovedades{
-    padding: 1%;
-    background-color: #F2F2F2;
-    margin-bottom: 3%;
-}
 
 .contenedorOfertas{
     background-color: #007BFF;
@@ -499,5 +525,95 @@ footer{
         width: 100%;
         max-width: 100%;
         margin-top: 15%;
+    }
+}
+
+
+/*ESTO ES PARA EL MENU*/
+
+/* Móviles muy pequeños */
+@media (max-width: 360px) {
+    .logoNav {
+        width: 50%;
+        max-width: 120px;
+    }
+    
+    .itemsMenu a {
+        font-size: 14px;
+        padding: 0.75rem;
+    }
+    
+    .contenedorBotonesAcciones {
+        gap: 1.5rem;
+    }
+    
+    .contenedorBotonesAcciones i {
+        font-size: 18px;
+    }
+}
+
+/* Para pantallas muy anchas */
+@media (min-width: 1400px) {
+    .contenedorListaItems {
+        width: 70%;
+    }
+    
+    .contenedorBotonesAcciones {
+        width: 15%;
+    }
+    
+    .itemsMenu a {
+        font-size: 18px;
+    }
+}
+
+/* Fix para dropdown */
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-top: 0.125rem;
+    z-index: 1000;
+}
+
+.dropdown-item {
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: rgba(0, 123, 255, 0.2);
+    color: #007BFF;
+}
+
+.dropdown-divider {
+    border-color: rgba(255, 255, 255, 0.1);
+    margin: 0.25rem 0;
+}
+
+/* Fix para dropdown en móviles */
+@media (max-width: 991px) {
+    .dropdown-menu {
+        position: static;
+        float: none;
+        width: 100%;
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .dropdown-item {
+        color: white;
+        padding: 0.75rem 1.5rem;
+    }
+    
+    .dropdown-item:hover {
+        background-color: rgba(0, 123, 255, 0.2);
+        color: #007BFF;
     }
 }

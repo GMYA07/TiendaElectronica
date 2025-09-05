@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid contenedorMenu">
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand contenedorLogo" href="./index.php?ruta=./views/principal/principal">
@@ -10,7 +10,7 @@
             <div class="container contenedorListaItems">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 itemsMenu">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                             Categorias
                         </a>
                         <ul class="dropdown-menu">
@@ -46,8 +46,8 @@
                 </ul>
             </div>
             <div class="container contenedorBotonesAcciones">
-                <a href="./index.php?ruta=./views/inicioSesion/inicioSesion"><i class="fa fa-user" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <a href="./index.php?ruta=./views/inicioSesion/inicioSesion" class="botonAccion"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <a href="#" class="botonAccion"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
