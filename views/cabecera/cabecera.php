@@ -40,9 +40,6 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Computacion</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Audio y video</a>
-                    </li>
                 </ul>
             </div>
             <div class="container contenedorBotonesAcciones">

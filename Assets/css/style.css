@@ -48,7 +48,6 @@ nav{
 .itemsMenu a {
     color: white;
     font-size: 2vh;
-    min-font-size: 14px;
     padding: 0.5rem 0.75rem;
     white-space: nowrap;
 }
