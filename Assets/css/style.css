@@ -171,16 +171,83 @@ nav{
 }
 
 /*Estilos targetas*/
+
+ .product-image {
+    object-fit: cover;
+    cursor: pointer;
+}
+.card-title{
+    text-align: center;
+}
+
+.precio{
+    background-color: #1D4ED8;
+    max-width: 100%;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.btnCard{
+    color: #1D4ED8
+}
+
+.btnAgregar{
+
+    background-color: #1D4ED8;
+    color: white;
+}
+
+.btnAgregar:hover{
+    background-color: #007BFF;
+    color: white;
+}
+
 .slide{
     margin-bottom: 4%;
 }
 .card{
-  border:  0.3em solid black;
-  background-color: #333333;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card:hover {
+  transform: translateY(-8px); 
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); 
 }
 
 .card-body{
+    color: black;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 15px;
+    left: -5px;
+    background: #1D4ED8;
     color: white;
+    padding: 8px 20px 8px 15px;
+    border-radius: 0 25px 25px 0;
+    font-weight: bold;
+    font-size: 0.85rem;
+    z-index: 10;
+    box-shadow: 0 3px 10px rgba(231, 76, 60, 0.3);
+}
+
+.discount-badge::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #1D4ED8;
+    border-bottom: 8px solid transparent;
 }
 
 
