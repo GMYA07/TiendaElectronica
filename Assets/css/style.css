@@ -87,37 +87,27 @@ nav{
 
 /*Editaremos la parte de los banner de anuncios*/
 
-.contenedorAnuncios{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    padding: 5%;
-}
-
-.c-item{
-    height: 50vh;
-}
 .carousel-item img {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    height: 415px;
+    object-fit: cover;
 }
-
-.contDerecha{
-    display: flex;
-    justify-content: center;
-    height: 50vh;
+        
+.ad-card {
+    transition: transform 0.2s ease;
 }
-
-.contDerecha img{
-    border-radius: 8px;
+        
+.ad-card:hover {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+        
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px;
+    }
 }
 
  /* Estilos personalizados para los botones del carousel */
