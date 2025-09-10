@@ -31,143 +31,283 @@
         <div class="container p-4 contenedorTitulo">
             <h1 class="text-center"><b>Celulares</b></h1>
         </div>
-        <div class="container container-sm d-flex  justify-content-around contenedorProductos-fila">
-            <div class="card cardCatalogo" style="width: 18rem;">
-                <img src="./Assets/img/productos/nintendoSwitch2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Consola nintendo switch2 pantalla fhd 7.9p hdr hasta 120hz almacenamiento 256gb hk</h5>
-                </div>
-                <div class="card-info">
-                    <div class="card-precio">
-                        <p>$80,0000</p>
-                    </div>
-                    <div class="card-promocion">
-                        <p>5% descuento</p>
-                    </div>
-                </div>
-                <div class="card-boton">
-                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                </div>
-            </div>
-            <div class="card cardCatalogo" style="width: 18rem;">
-                <img src="./Assets/img/productos/xboxS.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Consola de videojuegos xbox series s ssd 512gb vrr hdr blanco</h5>
-                </div>
-                <div class="card-info">
-                    <div class="card-precio">
-                        <p>$80,0000</p>
-                    </div>
-                    <div class="card-promocion">
-                        <p>5% descuento</p>
-                    </div>
-                </div>
-                <div class="card-boton">
-                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                </div>
-            </div>
-            <div class="card cardCatalogo" style="width: 18rem;">
-                <img src="./Assets/img/productos/nintendoSwitch2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Consola nintendo switch2 pantalla fhd 7.9p hdr hasta 120hz almacenamiento 256gb hk</h5>
-                </div>
-                <div class="card-info">
-                    <div class="card-precio">
-                        <p>$80,0000</p>
-                    </div>
-                    <div class="card-promocion">
-                        <p>5% descuento</p>
+        <div class="container-lg" style="background-color: #F3F4F6;">
+            <div class="row">
+                <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="discount-badge">-64% OFF</div>
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
+                            <div class="container-fluid precio">
+                                <span class="mt-3 mr-2">$200</span>
+                                <del class="mt-3">$550</del>
+                            </div>
+                            <div class="container-fluid descripcion p-2">
+                                <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group input-group-sm justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        id="quantity" value="1" readonly style="max-width: 80px;">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <a href="#" class="btn btnAgregar mt-2 mb-3 "><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card-boton">
-                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                </div>
-            </div>
-            <div class="card cardCatalogo" style="width: 18rem;">
-                <img src="./Assets/img/productos/xboxS.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Consola de videojuegos xbox series s ssd 512gb vrr hdr blanco</h5>
-                </div>
-                <div class="card-info">
-                    <div class="card-precio">
-                        <p>$80,0000</p>
+                <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
+                            <div class="container-fluid precio">
+                                <span class="mt-3 mr-2">$200</span>
+                            </div>
+                            <div class="container-fluid descripcion p-2">
+                                <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group input-group-sm justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        id="quantity" value="1" readonly style="max-width: 80px;">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <a href="#" class="btn btnAgregar mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-promocion">
-                        <p>5% descuento</p>
+                </div>
+                <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="discount-badge">-64% OFF</div>
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
+                            <div class="container-fluid precio">
+                                <span class="mt-3 mr-2">$200</span>
+                                <del class="mt-3">$550</del>
+                            </div>
+                            <div class="container-fluid descripcion p-2">
+                                <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group input-group-sm justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        id="quantity" value="1" readonly style="max-width: 80px;">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <a href="#" class="btn btnAgregar mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card-boton">
-                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
+                            <div class="container-fluid precio">
+                                <span class="mt-3 mr-2">$200</span>
+                            </div>
+                            <div class="container-fluid descripcion p-2">
+                                <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group input-group-sm justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        id="quantity" value="1" readonly style="max-width: 80px;">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <a href="#" class="btn btnAgregar mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container container-sm d-flex  justify-content-around contenedorProductos-fila">
-            <div class="card cardCatalogo" style="width: 18rem;">
-                <img src="./Assets/img/productos/nintendoSwitch2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Consola nintendo switch2 pantalla fhd 7.9p hdr hasta 120hz almacenamiento 256gb hk</h5>
-                </div>
-                <div class="card-info">
-                    <div class="card-precio">
-                        <p>$80,0000</p>
-                    </div>
-                    <div class="card-promocion">
-                        <p>5% descuento</p>
-                    </div>
-                </div>
-                <div class="card-boton">
-                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                </div>
-            </div>
-            <div class="card cardCatalogo" style="width: 18rem;">
-                <img src="./Assets/img/productos/xboxS.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Consola de videojuegos xbox series s ssd 512gb vrr hdr blanco</h5>
-                </div>
-                <div class="card-info">
-                    <div class="card-precio">
-                        <p>$80,0000</p>
-                    </div>
-                    <div class="card-promocion">
-                        <p>5% descuento</p>
-                    </div>
-                </div>
-                <div class="card-boton">
-                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                </div>
-            </div>
-            <div class="card cardCatalogo" style="width: 18rem;">
-                <img src="./Assets/img/productos/nintendoSwitch2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Consola nintendo switch2 pantalla fhd 7.9p hdr hasta 120hz almacenamiento 256gb hk</h5>
-                </div>
-                <div class="card-info">
-                    <div class="card-precio">
-                        <p>$80,0000</p>
-                    </div>
-                    <div class="card-promocion">
-                        <p>5% descuento</p>
+        <div class="container-lg" style="background-color: #F3F4F6;">
+            <div class="row">
+                <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="discount-badge">-64% OFF</div>
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
+                            <div class="container-fluid precio">
+                                <span class="mt-3 mr-2">$200</span>
+                                <del class="mt-3">$550</del>
+                            </div>
+                            <div class="container-fluid descripcion p-2">
+                                <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group input-group-sm justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        id="quantity" value="1" readonly style="max-width: 80px;">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <a href="#" class="btn btnAgregar mt-2 mb-3 "><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card-boton">
-                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
-                </div>
-            </div>
-            <div class="card cardCatalogo" style="width: 18rem;">
-                <img src="./Assets/img/productos/xboxS.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Consola de videojuegos xbox series s ssd 512gb vrr hdr blanco</h5>
-                </div>
-                <div class="card-info">
-                    <div class="card-precio">
-                        <p>$80,0000</p>
+                <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
+                            <div class="container-fluid precio">
+                                <span class="mt-3 mr-2">$200</span>
+                            </div>
+                            <div class="container-fluid descripcion p-2">
+                                <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group input-group-sm justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        id="quantity" value="1" readonly style="max-width: 80px;">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <a href="#" class="btn btnAgregar mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-promocion">
-                        <p>5% descuento</p>
+                </div>
+                <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="discount-badge">-64% OFF</div>
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
+                            <div class="container-fluid precio">
+                                <span class="mt-3 mr-2">$200</span>
+                                <del class="mt-3">$550</del>
+                            </div>
+                            <div class="container-fluid descripcion p-2">
+                                <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group input-group-sm justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        id="quantity" value="1" readonly style="max-width: 80px;">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <a href="#" class="btn btnAgregar mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card-boton">
-                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
+                            <div class="container-fluid precio">
+                                <span class="mt-3 mr-2">$200</span>
+                            </div>
+                            <div class="container-fluid descripcion p-2">
+                                <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group input-group-sm justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        id="quantity" value="1" readonly style="max-width: 80px;">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <a href="#" class="btn btnAgregar mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

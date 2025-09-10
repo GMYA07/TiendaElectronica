@@ -939,27 +939,30 @@
     <h2>Categorias</h2>
 </div>
 <div class="container p-5">
-    <div class="row justify-content-center text-center">
+    <div class="row justify-content-between text-center">
         <div class="col-auto contenedorCat">
             <div class="circle">
                 <i class="fa fa-gamepad" aria-hidden="true"></i>
             </div>
-            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 45px;">Pantallas</p>
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px;">Pantallas</p>
         </div>
         <div class="col-auto contenedorCat">
             <div class="circle">
                 <i class="fa fa-mobile" aria-hidden="true"></i>
             </div>
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px;">Telefonos</p>
         </div>
         <div class="col-auto contenedorCat">
             <div class="circle">
                 <i class="fa fa-desktop" aria-hidden="true"></i>
             </div>
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px;">Computadoras</p>
         </div>
         <div class="col-auto contenedorCat">
             <div class="circle">
                 <i class="fa fa-headphones" aria-hidden="true"></i>
             </div>
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px;">Audio y video</p>
         </div>
     </div>
 </div>
