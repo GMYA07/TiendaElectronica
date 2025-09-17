@@ -80,7 +80,7 @@
             <div class="container-fluid w-75">
                 <div class="row">
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -148,7 +148,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -183,7 +183,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -219,10 +219,10 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="container-lg" style="background-color: #F3F4F6;">
+            <div class="container-fluid w-75">
                 <div class="row">
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -257,7 +257,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -290,7 +290,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -325,7 +325,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -362,11 +362,11 @@
         </div>
     </div>
     <!-- Botones de navegación mejorados -->
-    <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
@@ -387,7 +387,7 @@
             <div class="container-fluid w-75">
                 <div class="row">
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -422,7 +422,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -455,7 +455,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -490,7 +490,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -526,10 +526,10 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="container-lg" style="background-color: #F3F4F6;">
+            <div class="container-fluid w-75">
                 <div class="row">
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -564,7 +564,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -597,7 +597,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -632,7 +632,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -669,11 +669,11 @@
         </div>
     </div>
     <!-- Botones de navegación mejorados -->
-    <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
@@ -690,7 +690,7 @@
             <div class="container-fluid w-75">
                 <div class="row">
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -725,7 +725,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -758,7 +758,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -793,7 +793,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -829,10 +829,10 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="container-lg" style="background-color: #F3F4F6;">
+            <div class="container-fluid w-75">
                 <div class="row">
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -867,7 +867,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
@@ -900,7 +900,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
@@ -935,7 +935,7 @@
                         </div>
                     </div>
                     <div class="col my-4 d-flex justify-content-center align-items-center">
-                        <div class="card border-0" style="width: 16rem; min-height: 100%;">
+                        <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
                                 <h5 class="card-title mt-3 mb-4" style="font-size: 1.5rem;">Laptop Lenovo</h5>
