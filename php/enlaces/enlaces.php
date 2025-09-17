@@ -21,6 +21,8 @@
 
 <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
 
+
+
 <link rel="stylesheet" href="./Assets/css/style.css">
 <link rel="stylesheet" href="./Assets/css/productos/styleProductos.css">
 <link rel="stylesheet" href="./Assets/css/Crud/styleCrud.css">
