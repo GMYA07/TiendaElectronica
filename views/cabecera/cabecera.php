@@ -11,7 +11,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 itemsMenu">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Categorias
+                            <i class="fa fa-th-large"></i> Categorías 
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Computo y Tablets</a></li>
@@ -26,19 +26,19 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Promociones</a>
+                        <a class="nav-link" aria-current="page" href="#"> <i class="fa fa-tags" aria-hidden="true"></i> Promociones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/catalogo/celular">Celulares</a>
+                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/catalogo/celular"> <i class="fa fa-phone" aria-hidden="true"></i> Celulares</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/usuarios/usuarios">Usuarios</a>
+                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/usuarios/usuarios"><i class="fa fa-user-o" aria-hidden="true"></i> Usuarios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Gaming</a>
+                        <a class="nav-link" aria-current="page" href="#"><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Computacion</a>
+                        <a class="nav-link" aria-current="page" href="#"> <i class="fa fa-laptop" aria-hidden="true"></i> Computacion</a>
                     </li>
                 </ul>
             </div>

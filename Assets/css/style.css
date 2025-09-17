@@ -110,7 +110,7 @@ nav{
     }
 }
 
- /* Estilos personalizados para los botones del carousel */
+/* Estilos personalizados para los botones del carousel */
 .carousel-control-prev,
 .carousel-control-next {
     color: #000;
@@ -128,11 +128,11 @@ nav{
 }
 
 .carousel-control-prev {
-    margin-left: 1%;;
+    margin-left: 10%;
 }
 
 .carousel-control-next {
-    margin-right: 1%;
+    margin-right: 10%;
 }
 
 .carousel-control-prev:hover,
@@ -153,6 +153,7 @@ nav{
     max-width: 100%;
     padding-left: 5%;
     margin-bottom: 3%;
+    padding-left: 11%;
 }
 
 .contenedorTitulo h2{
