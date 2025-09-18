@@ -26,10 +26,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"> <i class="fa fa-tags" aria-hidden="true"></i> Promociones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/catalogo/celular"> <i class="fa fa-phone" aria-hidden="true"></i> Celulares</a>
+                        <a class="nav-link" id="promocionesMenu" aria-current="page" href="#"> <i class="fa fa-tags" aria-hidden="true"></i> Promociones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/usuarios/usuarios"><i class="fa fa-user-o" aria-hidden="true"></i> Usuarios</a>
@@ -38,7 +35,7 @@
                         <a class="nav-link" aria-current="page" href="#"><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#"> <i class="fa fa-laptop" aria-hidden="true"></i> Computacion</a>
+                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/catalogo/celular"> <i class="fa fa-laptop" aria-hidden="true"></i> Computacion</a>
                     </li>
                 </ul>
             </div>

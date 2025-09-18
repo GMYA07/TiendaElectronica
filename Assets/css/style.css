@@ -7,7 +7,7 @@
 /*Arreglos Menu*/
 
 nav{
-    background-color: #333333;
+    background-color: #2B2B2B;
 }
 
 /* CSS RESPONSIVE MEJORADO */
@@ -24,12 +24,13 @@ nav{
     display: flex;
     justify-content: center;
     flex-shrink: 0;
+    
 }
 
 .logoNav {
     width: 50%;
     height: auto;
-    max-width: 200px;
+    max-width: 250px;
     min-width: 60px;
 }
 
@@ -40,7 +41,7 @@ nav{
 
 .itemsMenu {
     display: flex;
-    gap: 5%;
+    gap: 6%;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -48,12 +49,24 @@ nav{
 .itemsMenu a {
     color: white;
     font-size: clamp(0.85rem, 2vh, 1rem) !important;
+    font-weight: bold;
     padding: 0.5rem 0.75rem;
     white-space: nowrap;
 }
 
 .itemsMenu a:hover {
     color: #007BFF;
+    border-bottom: solid #007BFF 0.5px;
+}
+
+#promocionesMenu{
+    color:#007BFF
+
+}
+
+#promocionesMenu:hover{
+    color: white;
+    border-bottom: white solid 0.5px;
 }
 
 .contenedorBotonesAcciones {
