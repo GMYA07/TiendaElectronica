@@ -1,75 +1,27 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="container-fluid py-4">
-    <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
-        <div class="row">
-            <!-- Carrusel Principal -->
-            <div class="col-lg-9 mb-4 mb-lg-0">
-                <div class="card border-0 shadow-lg">
-                    <div id="mainCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
-                        <ol class="carousel-indicators">
-                            <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#mainCarousel" data-slide-to="1"></li>
-                            <li data-target="#mainCarousel" data-slide-to="2"></li>
-                        </ol>
-
-                        <div class="carousel-inner rounded">
-                            <div class="carousel-item active">
-                                <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&h=350&fit=crop" class="d-block w-100" alt="Gaming Setup">
-                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                                    <h5 class="text-primary">Gaming de Alta Gama</h5>
-                                    <p>Descubre los mejores equipos gaming</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=350&fit=crop" class="d-block w-100" alt="Laptops">
-                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                                    <h5 class="text-primary">Laptops Profesionales</h5>
-                                    <p>Potencia y portabilidad para tu trabajo</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=800&h=350&fit=crop" class="d-block w-100" alt="Smartphones">
-                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
-                                    <h5 class="text-primary">Smartphones</h5>
-                                    <p>La última tecnología móvil</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
+ <section class="hero-section">
+        <div class="floating-elements"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Tecnología de Última Generación</h1>
+                        <p class="hero-subtitle">Descubre los mejores productos tecnológicos con la mejor relación calidad-precio del mercado</p>
+                        <a href="#products" class="btn btn-hero">
+                            <i class="fas fa-rocket mr-2"></i>Explorar Productos
                         </a>
                     </div>
                 </div>
-            </div>
-
-            <!-- Sidebar con anuncios -->
-            <div class="col-lg-3">
-                <div class="row">
-                    <!-- Anuncio principal -->
-                    <div class="col-12 mb-4">
-                        <div class="card h-100 shadow ad-card">
-                            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=300&h=200&fit=crop" class="card-img-top" alt="Gaming Chair">
-                            <div class="card-body d-flex flex-column">
-                                <div class="mb-2">
-                                    <span class="badge badge-primary badge-pill px-3 py-2 h6 mb-0">$299.99</span>
-                                </div>
-                                <h5 class="card-title text-dark">Silla Gaming Pro</h5>
-                                <p class="card-text text-muted flex-grow-1">Comodidad extrema para sesiones de gaming prolongadas.</p>
-                                <a href="#" class="btn btn-outline-primary btn-block mt-auto">Ver Oferta</a>
-                            </div>
-                        </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <i class="fas fa-laptop" style="font-size: 15rem;"></i>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+</section>
 
-<div class="container contenedorTitulo">
+<div class="container mt-5 contenedorTitulo">
     <h2>Lo más vendido</h2>
 </div>
 
