@@ -61,7 +61,7 @@
                                     </div>
                                 </div>
                                 <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>

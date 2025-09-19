@@ -9,6 +9,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="container contenedorListaItems">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 itemsMenu">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"> <i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                             <i class="fa fa-th-large"></i> Categorías 
