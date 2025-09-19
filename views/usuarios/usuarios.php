@@ -13,7 +13,7 @@
     <div class="tab-pane fade" id="usuario" role="tabpanel" aria-labelledby="home-tab">
         <div class="container contenedorAcciones mt-5 p-4">
             <div>
-                <h2 class="text-white text-center">Acciones</h2>
+                <h2 class="text-white text-center">Gestion de productos</h2>
             </div>
             <div class="d-flex justify-content-around mt-4">
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#agregarUsuario"> <i class="fa fa-plus" aria-hidden="true"></i> Agregar Usuario</button>
@@ -144,6 +144,7 @@
                         <th>Age</th>
                         <th>Start date</th>
                         <th>Salary</th>
+                        <th>Acciones</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -154,6 +155,7 @@
                         <td>61</td>
                         <td>2011-04-25</td>
                         <td>$320,800</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Garrett Winters</td>
@@ -162,6 +164,7 @@
                         <td>63</td>
                         <td>2011-07-25</td>
                         <td>$170,750</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Ashton Cox</td>
@@ -170,6 +173,7 @@
                         <td>66</td>
                         <td>2009-01-12</td>
                         <td>$86,000</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Cedric Kelly</td>
@@ -178,6 +182,7 @@
                         <td>22</td>
                         <td>2012-03-29</td>
                         <td>$433,060</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Airi Satou</td>
@@ -186,6 +191,7 @@
                         <td>33</td>
                         <td>2008-11-28</td>
                         <td>$162,700</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Brielle Williamson</td>
@@ -194,6 +200,7 @@
                         <td>61</td>
                         <td>2012-12-02</td>
                         <td>$372,000</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Herrod Chandler</td>
@@ -202,6 +209,7 @@
                         <td>59</td>
                         <td>2012-08-06</td>
                         <td>$137,500</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Rhona Davidson</td>
@@ -210,6 +218,7 @@
                         <td>55</td>
                         <td>2010-10-14</td>
                         <td>$327,900</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Colleen Hurst</td>
@@ -218,6 +227,7 @@
                         <td>39</td>
                         <td>2009-09-15</td>
                         <td>$205,500</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Sonya Frost</td>
@@ -226,6 +236,7 @@
                         <td>23</td>
                         <td>2008-12-13</td>
                         <td>$103,600</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Jena Gaines</td>
@@ -234,6 +245,7 @@
                         <td>30</td>
                         <td>2008-12-19</td>
                         <td>$90,560</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Quinn Flynn</td>
@@ -242,6 +254,7 @@
                         <td>22</td>
                         <td>2013-03-03</td>
                         <td>$342,000</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Charde Marshall</td>
@@ -250,6 +263,7 @@
                         <td>36</td>
                         <td>2008-10-16</td>
                         <td>$470,600</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Haley Kennedy</td>
@@ -258,6 +272,7 @@
                         <td>43</td>
                         <td>2012-12-18</td>
                         <td>$313,500</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Tatyana Fitzpatrick</td>
@@ -266,6 +281,7 @@
                         <td>19</td>
                         <td>2010-03-17</td>
                         <td>$385,750</td>
+                        <td>XD</td>
                     </tr>
                     <tr>
                         <td>Michael Silva</td>
@@ -274,6 +290,7 @@
                         <td>66</td>
                         <td>2012-11-27</td>
                         <td>$198,500</td>
+                        <td>XD</td>
                     </tr>
                 </tbody>
             </table>
@@ -284,13 +301,12 @@
     </div>
     <div class="tab-pane fade show active" id="productos" role="tabpanel" aria-labelledby="profile-tab">
         <div class="container contenedorAcciones mt-5 p-4">
-            <div>
-                <h2 class="text-white text-center">Acciones</h2>
+            <div class="container  d-flex justify-content-start">
+                <h1 class=" text-center"><i class="fa fa-archive" aria-hidden="true"></i> Gestion de productos</h1>
             </div>
-            <div class="d-flex justify-content-around mt-4">
+            <div class="container  d-flex justify-content-end" style="gap:3%;">
                 <button type="button" class="btn bg-primary text-white" data-toggle="modal" data-target="#agregarProducto"> <i class="fa fa-plus" aria-hidden="true"></i> Agregar Producto</button>
-                <button type="button" class="btn bg-primary text-white"><i class="fa fa-minus" aria-hidden="true"></i> Eliminar Producto</button>
-                <button type="button" class="btn bg-primary text-white" data-toggle="modal" data-target="#editarProducto"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar Producto</button>
+                <button type="button" class="btn bg-primary text-white" data-toggle="modal" data-target="#agregarProducto"> <i class="fa fa-upload" aria-hidden="true"></i> Exportar Tabla</button>
             </div>
         </div>
         <!-- Modal Productos-->
@@ -580,6 +596,7 @@
                         <th>Age</th>
                         <th>Start date</th>
                         <th>Salary</th>
+                        <th>Acciones</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -590,6 +607,7 @@
                         <td>61</td>
                         <td>2011-04-25</td>
                         <td>$320,800</td>
+                        <td><button type="button" data-toggle="modal" data-target="#editarProducto" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Garrett Winters</td>
@@ -598,6 +616,7 @@
                         <td>63</td>
                         <td>2011-07-25</td>
                         <td>$170,750</td>
+                        <td><button type="button" data-toggle="modal" data-target="#editarProducto"  class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Ashton Cox</td>
@@ -606,6 +625,7 @@
                         <td>66</td>
                         <td>2009-01-12</td>
                         <td>$86,000</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Cedric Kelly</td>
@@ -614,6 +634,7 @@
                         <td>22</td>
                         <td>2012-03-29</td>
                         <td>$433,060</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Airi Satou</td>
@@ -622,6 +643,7 @@
                         <td>33</td>
                         <td>2008-11-28</td>
                         <td>$162,700</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Brielle Williamson</td>
@@ -630,6 +652,7 @@
                         <td>61</td>
                         <td>2012-12-02</td>
                         <td>$372,000</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Herrod Chandler</td>
@@ -638,6 +661,7 @@
                         <td>59</td>
                         <td>2012-08-06</td>
                         <td>$137,500</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Rhona Davidson</td>
@@ -646,6 +670,7 @@
                         <td>55</td>
                         <td>2010-10-14</td>
                         <td>$327,900</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Colleen Hurst</td>
@@ -654,6 +679,7 @@
                         <td>39</td>
                         <td>2009-09-15</td>
                         <td>$205,500</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Sonya Frost</td>
@@ -662,6 +688,7 @@
                         <td>23</td>
                         <td>2008-12-13</td>
                         <td>$103,600</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Jena Gaines</td>
@@ -670,6 +697,7 @@
                         <td>30</td>
                         <td>2008-12-19</td>
                         <td>$90,560</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Quinn Flynn</td>
@@ -678,6 +706,7 @@
                         <td>22</td>
                         <td>2013-03-03</td>
                         <td>$342,000</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Charde Marshall</td>
@@ -686,6 +715,7 @@
                         <td>36</td>
                         <td>2008-10-16</td>
                         <td>$470,600</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Haley Kennedy</td>
@@ -694,6 +724,7 @@
                         <td>43</td>
                         <td>2012-12-18</td>
                         <td>$313,500</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Tatyana Fitzpatrick</td>
@@ -702,6 +733,7 @@
                         <td>19</td>
                         <td>2010-03-17</td>
                         <td>$385,750</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                     <tr>
                         <td>Michael Silva</td>
@@ -710,18 +742,9 @@
                         <td>66</td>
                         <td>2012-11-27</td>
                         <td>$198,500</td>
+                        <td><button type="button" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></button> <button type="button" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
                     </tr>
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Age</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
-                    </tr>
-                </tfoot>
             </table>
         </div>
         <script>

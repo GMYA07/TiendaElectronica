@@ -1,9 +1,8 @@
+/* Estilos para la tabla */
 
-.tablaEstilos{
-    border: #007BFF 7px solid;
-    
+.tablaEstilos td > button{
+    margin-left: 0.3rem;
 }
-
 .encabezadoTabla, .pieTabla{
     background-color:#007BFF;
 }
@@ -20,16 +19,13 @@
 }
 
 .table-responsive input{
-    border: 3px solid #007BFF;
+    border: 0.5px solid #007BFF;
 }
 
 .contenedorAcciones{
-    background-color: #333333;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
 }
 
 .modalDiseno{
