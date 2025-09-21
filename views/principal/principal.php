@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-image">
-                        <i class="fas fa-laptop" style="font-size: 15rem;"></i>
+                        <img src="./Assets/img/laptopBanerInicio.png" alt="">
                     </div>
                 </div>
             </div>

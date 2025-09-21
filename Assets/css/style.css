@@ -9,91 +9,289 @@
 .navbar{
     background-color: #2B2B2B;
     height: 10vh;
+    position: relative;
+    z-index: 10 !important; /* Mayor que el hero-section */
+}
+
+.navbar-collapse {
+    z-index: 10 !important;
 }
 
 /* CSS RESPONSIVE MEJORADO */
 
-.contenedorMenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+ /* Tus estilos originales */
+        .contenedorMenu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
 
-.contenedorLogo {
-    display: flex;
-    justify-content: center;
-    flex-shrink: 0;
-}
+        .contenedorLogo {
+            display: flex;
+            justify-content: center;
+            flex-shrink: 0;
+        }
 
-.logoNav {
-    width: 40%;
-    height: auto;
-    max-width: 250px;
-    min-width: 60px;
-}
+        .logoNav {
+            width: 40%;
+            height: auto;
+            max-width: 250px;
+            min-width: 60px;
+        }
 
-.contenedorListaItems {
-    width: 80%;
-    height: auto;
-}
+        .contenedorListaItems {
+            width: 80%;
+            height: auto;
+        }
 
-.itemsMenu {
-    display: flex;
-    gap: 0.5%;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+        .itemsMenu {
+            display: flex;
+            gap: 0.5%;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
-.itemsMenu a {
-    color: white;
-    font-size: clamp(0.85rem, 2vh, 1rem) !important;
-    font-weight: bold;
-    white-space: nowrap;
-}
+        .itemsMenu a {
+            color: white;
+            font-size: clamp(0.85rem, 2vh, 1rem) !important;
+            font-weight: bold;
+            white-space: nowrap;
+        }
 
-.itemsMenu a:hover {
-    color: #007BFF;
-    border-bottom: solid #007BFF 0.5px;
-}
+        #promocionesMenu {
+            color: #007BFF;
+        }
 
-#promocionesMenu{
-    color:#007BFF
+        .contenedorBotonesAcciones {
+            width: 15%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            min-width: 100px;
+        }
 
-}
+        .contenedorBotonesAcciones i {
+            font-size: 4vh;
+            color: #007BFF;
+            min-font-size: 18px;
+        }
 
-#promocionesMenu:hover{
-    color: white;
-    border-bottom: white solid 0.5px;
-}
+        .contenedorBotonesAcciones i:hover {
+            color: white;
+        }
 
-.contenedorBotonesAcciones {
-    width: 15%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    min-width: 100px;
-}
+        .botonAccion {
+            padding: 0.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-.contenedorBotonesAcciones i {
-    font-size: 4vh;
-    color: #007BFF;
-    min-font-size: 18px;
-}
+        /* ANIMACIONES APLICADAS A TU NAVBAR */
 
-.contenedorBotonesAcciones i:hover {
-    color: white;
-}
+        /* Animación Underline para los items del menú */
+        .itemsMenu .nav-link {
+            position: relative;
+            padding: 10px 15px !important;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
 
-/* NUEVA CLASE AGREGADA */
-.botonAccion {
-    padding: 0.5rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
+        .itemsMenu .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            background: #4facfe;
+            transition: all 0.3s ease;
+        }
+
+        .itemsMenu .nav-link:hover::after {
+            width: 80%;
+            left: 10%;
+        }
+
+        .itemsMenu .nav-link:hover {
+            color: #4facfe !important;
+            transform: translateY(-2px);
+        }
+
+        /* Animación especial para Promociones */
+        #promocionesMenu {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #promocionesMenu::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        #promocionesMenu:hover::before {
+            left: 100%;
+        }
+
+        #promocionesMenu:hover {
+            color: #00d4ff !important;
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+            border-radius: 5px;
+        }
+
+        /* Animación Scale para dropdown */
+        .dropdown-toggle {
+            transition: all 0.3s ease !important;
+        }
+
+        .dropdown-toggle:hover {
+            transform: scale(1.05);
+            color: #4ecdc4 !important;
+        }
+
+        /* Animación para el dropdown menu */
+        .dropdown-menu {
+            transform: translateY(-10px);
+            opacity: 0;
+            transition: all 0.3s ease;
+            border: none;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .dropdown:hover .dropdown-menu {
+            transform: translateY(0);
+            opacity: 1;
+            display: block;
+        }
+
+        .dropdown-item {
+            transition: all 0.3s ease;
+            border-radius: 5px;
+            margin: 2px;
+        }
+
+        .dropdown-item:hover {
+           background: linear-gradient(45deg, #4facfe, #00f2fe) !important;
+            color: #333 !important;
+            transform: translateX(5px);
+        }
+
+        /* Animación Glow para botones de acción */
+        .botonAccion {
+            transition: all 0.3s ease;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .botonAccion:hover {
+            transform: scale(1.2);
+            box-shadow: 
+                0 0 20px #007BFF,
+                0 0 40px #007BFF;
+        }
+
+        .botonAccion i {
+            transition: all 0.3s ease;
+        }
+
+        .botonAccion:hover i {
+            color: white !important;
+            animation: bounce 0.6s ease;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        /* Animación para el logo */
+        .logoNav {
+            transition: all 0.3s ease;
+        }
+
+        .contenedorLogo:hover .logoNav {
+            transform: rotate(5deg) scale(1.1);
+        }
+
+        /* Animación para el navbar-toggler */
+        .navbar-toggler {
+            transition: all 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .navbar-toggler:hover {
+            transform: rotate(90deg);
+            background: rgba(255, 255, 255, 0.9) !important;
+        }
+
+        /* Efecto de aparición suave para todo el navbar */
+        .navbar {
+            animation: slideDown 0.8s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Responsive animations */
+        @media (max-width: 768px) {
+            .itemsMenu .nav-link:hover {
+                transform: none;
+            }
+            
+            .itemsMenu .nav-link::after {
+                display: none;
+            }
+            
+            .itemsMenu .nav-link:hover {
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 5px;
+            }
+        }
+        
+        /* O si prefieres bajar el z-index de tu div en móvil */
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                background: rgba(0, 0, 0, 0.95);
+                border-radius: 0 0 10px 10px;
+                margin-top: 5px;
+                z-index: 1050 !important; /* Bootstrap usa z-index 1040 para modals */
+            }
+    
+            /* Opcional: Añadir un backdrop blur */
+            .navbar-collapse.show {
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+            }
+        }
+
+        /* Simulación del contenido de la página */
+        .demo-content {
+            padding: 50px 20px;
+            text-align: center;
+            color: white;
+        }
+
+
 
 
 /*Editaremos la parte de los banner de anuncios*/
@@ -163,7 +361,7 @@
             top: 50%;
             transform: translateY(-50%);
             opacity: 0.1;
-            z-index: 1;
+            z-index: 2;
         }
 
 /* Estilos personalizados para los botones del carousel */

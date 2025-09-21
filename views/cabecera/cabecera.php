@@ -16,7 +16,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                             <i class="fa fa-th-large"></i> Categorías 
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu ">
                             <li><a class="dropdown-item" href="#">Computo y Tablets</a></li>
                             <li>
                                 <hr class="dropdown-divider">
