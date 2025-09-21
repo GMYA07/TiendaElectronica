@@ -3,7 +3,7 @@
         <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand contenedorLogo" href="./index.php?ruta=./views/principal/principal">
+        <a class="navbar-brand contenedorLogo" href="./index.php?ruta=inicio">
             <img class="logoNav" src="./Assets/img/logoEmpresa.png" alt="">
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -32,13 +32,13 @@
                         <a class="nav-link" id="promocionesMenu" aria-current="page" href="#"> <i class="fa fa-tags" aria-hidden="true"></i> Promociones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/usuarios/usuarios"><i class="fa fa-user-o" aria-hidden="true"></i> Usuarios</a>
+                        <a class="nav-link" aria-current="page" href="./index.php?ruta=administracion"><i class="fa fa-user-o" aria-hidden="true"></i> Usuarios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#"><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.php?ruta=./views/catalogo/celular"> <i class="fa fa-laptop" aria-hidden="true"></i> Computacion</a>
+                        <a class="nav-link" aria-current="page" href="./index.php?ruta=catalogo"> <i class="fa fa-laptop" aria-hidden="true"></i> Computacion</a>
                     </li>
                 </ul>
             </div>

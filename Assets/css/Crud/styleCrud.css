@@ -1,8 +1,4 @@
 /* Estilos para la tabla */
-
-.tablaEstilos td > button{
-    margin-left: 0.3rem;
-}
 .encabezadoTabla, .pieTabla{
     background-color:#007BFF;
 }
@@ -20,6 +16,11 @@
 
 .table-responsive input{
     border: 0.5px solid #007BFF;
+}
+
+.tablaEstilos td{
+    text-align: center;
+    padding: 0.8rem;
 }
 
 .contenedorAcciones{
