@@ -43,7 +43,7 @@
                 </ul>
             </div>
             <div class="container contenedorBotonesAcciones">
-                <a href="./index.php?ruta=./views/inicioSesion/inicioSesion" class="botonAccion"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <a href="./index.php?ruta=./views/inicioSesion/inicioSesion" class="botonAccion"><i class="fa fa-user-o" aria-hidden="true"></i></a>
                 <a href="#" class="botonAccion"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
             </div>
         </div>
