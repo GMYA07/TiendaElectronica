@@ -454,15 +454,9 @@
                 <thead>
                     <tr class="encabezadoTabla">
                         <th>Id</th>
-                        <th>Nombre</th>
-                        <th>id categoria</th>
-                        <th>Precio</th>
-                        <th>Cantidad</th>
-                        <th>Id marca</th>
-                        <th>Modelo</th>
                         <th>Sku</th>
-                        <th>Imagen</th>
-                        <th>Fecha registrado</th>
+                        <th>Nombre</th>
+                        <th>Cantidad</th>
                         <th>Estado</th>
                         <th>Accion</th>
                     </tr>
@@ -471,25 +465,20 @@
                     <?php foreach ($productos as $p): ?>
                         <tr>
                             <td><?= $p['id_producto'] ?></td>
-                            <td><?= $p['nombre'] ?></td>
-                            <td><?= $p['id_categoria'] ?></td>
-                            <td><?= $p['precio'] ?></td>
-                            <td><?= $p['stock'] ?></td>
-                            <td><?= $p['id_marca'] ?></td>
-                            <td><?= $p['modelo'] ?></td>
                             <td><?= $p['sku'] ?></td>
-                            <td><button type="button" class="btn btn-primary"><i class="fa fa-eye" aria-hidden="true"></i></button></td>
-                            <td><?= $p['fecha_creacion'] ?></td>
+                            <td><?= $p['nombre'] ?></td>
+                            <td><?= $p['stock'] ?></td>
                             <td><?= $p['estado'] ?></td>
                             <td>
                                 <button type="button" 
                                 data-toggle="modal" 
                                 data-target="#editarProducto" 
-                                class="btn btn-primary btn-editar"
+                                class="btn btn-sm btn-primary btn-editar"
                                 data-producto='<?= htmlspecialchars(json_encode($p), ENT_QUOTES) ?>'>
                                 <i class="fa fa-pencil"></i>
                                 </button>
-                                </button> <a href="./controller/productosController.php?accion=eliminar&id=<?=$p['id_producto']?>" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                </button> <a href="./controller/productosController.php?accion=eliminar&id=<?=$p['id_producto']?>" class="btn btn-sm btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-eye" aria-hidden="true"></i></button>
                             </td>
                         </tr>
                     <?php endforeach; ?>
