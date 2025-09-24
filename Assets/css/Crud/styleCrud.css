@@ -9,9 +9,13 @@
     border-top-right-radius: 5px;
 }
 
+table.dataTable.table.table-striped > tbody > tr:nth-of-type(2n+1) > * {
+    box-shadow: inset 0 0 0 9999px rgba(59, 130, 246, 0.05);
+}
+
 .encabezadoTabla th{
     color: white;
-    padding: 1.5rem;
+    text-align: center !important;
 }
 
 .table-responsive input{
@@ -19,7 +23,7 @@
 }
 
 .tablaEstilos td{
-    text-align: center;
+    text-align: center !important;
     padding: 0.3rem;
 }
 
