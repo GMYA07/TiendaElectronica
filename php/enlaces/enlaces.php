@@ -26,3 +26,4 @@
 <link rel="stylesheet" href="./Assets/css/style.css">
 <link rel="stylesheet" href="./Assets/css/productos/styleProductos.css">
 <link rel="stylesheet" href="./Assets/css/Crud/styleCrud.css">
+<link rel="stylesheet" href="./Assets/css/dashboard/dashboard.css">

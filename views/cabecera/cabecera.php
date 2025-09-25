@@ -32,7 +32,7 @@
                         <a class="nav-link" id="promocionesMenu" aria-current="page" href="#"> <i class="fa fa-tags" aria-hidden="true"></i> Promociones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.php?ruta=administracion"><i class="fa fa-user-o" aria-hidden="true"></i> Usuarios</a>
+                        <a class="nav-link" aria-current="page" href="./index.php?ruta=dashboard"><i class="fa fa-user-o" aria-hidden="true"></i> Usuarios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#"><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</a>
