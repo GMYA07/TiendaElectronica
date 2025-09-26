@@ -74,5 +74,58 @@
     </div>
 </div>
 <div class="container">
-
+    <div class="row">
+        <div class="col-8">
+            <div class="col-6 d-flex justify-content-center">
+                <div class="iconoDisenoTargeta text-center ">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+                <canvas id="chart2"></canvas>
+            </div>
+        </div>
+        <div class="col-4">
+            <div>
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
 </div>
+<script>
+    const ctx = document.getElementById('myChart');
+    const ctx2 = document.getElementById('chart2');
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                label: '# of Votes',
+                data: [12, 19, 3, 5, 2, 3],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    const chart = new Chart(ct2, {
+        type: 'line',
+        data: data,
+        options: {
+            onClick: (e) => {
+                const canvasPosition = getRelativePosition(e, chart);
+
+                // Substitute the appropriate scale IDs
+                const dataX = chart.scales.x.getValueForPixel(canvasPosition.x);
+                const dataY = chart.scales.y.getValueForPixel(canvasPosition.y);
+            }
+        }
+    });
+</script>
