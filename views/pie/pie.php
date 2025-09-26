@@ -1,25 +1,27 @@
-<footer>
-    <div class="container w-75 contenedorPieInformacion">
-        <div class="container contenedorPieInformacion-img">
-            <img src="./Assets/img//logoEmpresaAlterno.png" alt="">
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="./Assets/img/logoEmpresaAlterno.png" alt="Logo de SLee Dw">
+                </a>
+            </figure>
         </div>
-        <div class="container contenedorPieInformacion-info">
-            <div class="container contenedorPieInformacion-info-telefono">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <p>+503 79882404</p>
-            </div>
-            <div class="container contenedorPieInformacion-info-email">
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                <p>yaelguzman750@gmail.com</p>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Somos una empresa dedicada a la venta de productos electrónicos de última generación, ofreciendo calidad, precios competitivos y un servicio confiable para que disfrutes de la mejor tecnología en tu día a día.</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
             </div>
         </div>
     </div>
-    <div class="container w-25 contenedorPieRedes">
-        <h2>Siguenos</h2>
-        <div class="container contenedorPieRedes-iconos">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-            <i class="fa fa-snapchat-square" aria-hidden="true"></i>
-        </div>
+    <div class="grupo-2">
+        <small>&copy; 2025 <b>YAMG</b> - Todos los Derechos Reservados.</small>
     </div>
 </footer>

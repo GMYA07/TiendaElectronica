@@ -74,3 +74,45 @@ table.dataTable.table.table-striped > tbody > tr:nth-of-type(2n+1) > * {
 .formulario label{
     font-weight: bold;
 }
+
+.image-dropzone {
+            border: 2px dashed #007bff !important;
+            border-radius: 8px;
+            background: #f8f9fa;
+            min-height: 120px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .image-dropzone:hover {
+            border-color: #0056b3 !important;
+            background: #e3f2fd;
+        }
+        
+        .image-dropzone .dz-message {
+            margin: 0;
+            color: #6c757d;
+        }
+
+.product-info-row {
+            border-bottom: 1px solid #eee;
+            padding: 8px 0;
+        }
+        .product-info-row:last-child {
+            border-bottom: none;
+        }
+        .modal-header.bg-info {
+            background-color: #0056b3 !important;
+        }
+        .form-group label {
+            font-weight: 600;
+        }
+        .required {
+            color: #dc3545;
+        }
+        .product-image-preview {
+            max-width: 200px;
+            max-height: 200px;
+            object-fit: cover;
+        }
