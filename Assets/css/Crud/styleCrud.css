@@ -74,3 +74,23 @@ table.dataTable.table.table-striped > tbody > tr:nth-of-type(2n+1) > * {
 .formulario label{
     font-weight: bold;
 }
+
+.image-dropzone {
+            border: 2px dashed #007bff !important;
+            border-radius: 8px;
+            background: #f8f9fa;
+            min-height: 120px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .image-dropzone:hover {
+            border-color: #0056b3 !important;
+            background: #e3f2fd;
+        }
+        
+        .image-dropzone .dz-message {
+            margin: 0;
+            color: #6c757d;
+        }

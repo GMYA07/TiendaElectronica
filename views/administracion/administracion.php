@@ -319,7 +319,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form action="./controller/productosController.php" method="POST" class="formulario" enctype="multipart/form-data">
+                    <form id="agregarProductoForm" action="./controller/productosController.php" method="POST" class="formulario" enctype="multipart/form-data">
                         <div class="modal-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nombre producto</label>
@@ -401,22 +401,29 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group">
-                                        <label for="imagen5">Imagen producto</label>
-                                        <div class="input-group">
-                                            <div class="input-group-prepend" style="background-color: #007bff; border-color: #007bff;">
-                                                <span class="input-group-text" style="color: white; background-color: #007bff; border-color: #007bff;">
-                                                    <i class="fa fa-image"></i>
-                                                </span>
+                                        <label for="exampleInputPassword1">Descripcion</label>
+                                        <div class="input-group has-validation">
+                                            <div class="input-group-prepend logoInput">
+                                                <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
                                             </div>
-                                            <div class="custom-file">
-                                                <input type="file" required class="custom-file-input" id="imagen5" name="imagen" accept="image/*">
-                                                <label class="custom-file-label" for="imagen5">Seleccionar imagen...</label>
-                                            </div>
+                                            <textarea name="descripcion" required class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            <script>
+                                                CKEDITOR.replace('descripcion');
+                                            </script>
                                         </div>
-                                        <small class="text-muted">JPG, PNG o GIF (máx. 5MB)</small>
                                     </div>
                                 </div>
                                 <div class="col">
+                                    <div class="form-group">
+                                        <label>Imagen producto</label>
+                                        <div class="image-dropzone">
+                                            <div class="dz-message">
+                                                <i class="fa fa-cloud-upload fa-3x mb-3 text-primary"></i>
+                                                <h5>Arrastra imagen aquí</h5>
+                                            </div>
+                                        </div>
+                                        <input type="file" name="imagen" style="display: none;">
+                                    </div>
                                     <div class="form-group">
                                         <label for="exampleCiudad">Estado</label>
                                         <select name="estado" required class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
@@ -427,18 +434,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Descripcion</label>
-                                <div class="input-group has-validation">
-                                    <div class="input-group-prepend logoInput">
-                                        <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
-                                    </div>
-                                    <textarea name="descripcion" required class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    <script>
-                                        CKEDITOR.replace('descripcion');
-                                    </script>
-                                </div>
-                            </div>
+
 
                         </div>
                         <div class="modal-footer">
@@ -470,14 +466,14 @@
                             <td><?= $p['stock'] ?></td>
                             <td><?= $p['estado'] ?></td>
                             <td>
-                                <button type="button" 
-                                data-toggle="modal" 
-                                data-target="#editarProducto" 
-                                class="btn btn-sm btn-primary btn-editar"
-                                data-producto='<?= htmlspecialchars(json_encode($p), ENT_QUOTES) ?>'>
-                                <i class="fa fa-pencil"></i>
+                                <button type="button"
+                                    data-toggle="modal"
+                                    data-target="#editarProducto"
+                                    class="btn btn-sm btn-primary btn-editar"
+                                    data-producto='<?= htmlspecialchars(json_encode($p), ENT_QUOTES) ?>'>
+                                    <i class="fa fa-pencil"></i>
                                 </button>
-                                </button> <a href="./controller/productosController.php?accion=eliminar&id=<?=$p['id_producto']?>" class="btn btn-sm btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                </button> <a href="./controller/productosController.php?accion=eliminar&id=<?= $p['id_producto'] ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                 <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-eye" aria-hidden="true"></i></button>
                             </td>
                         </tr>
@@ -581,23 +577,31 @@
                             </div>
                             <div class="row">
                                 <div class="col">
+
                                     <div class="form-group">
-                                        <label for="imagen5">Imagen producto</label>
-                                        <div class="input-group">
-                                            <div class="input-group-prepend" style="background-color: #007bff; border-color: #007bff;">
-                                                <span class="input-group-text" style="color: white; background-color: #007bff; border-color: #007bff;">
-                                                    <i class="fa fa-image"></i>
-                                                </span>
+                                        <label for="exampleInputPassword1">Descripcion</label>
+                                        <div class="input-group has-validation">
+                                            <div class="input-group-prepend logoInput">
+                                                <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
                                             </div>
-                                            <div class="custom-file">
-                                                <input type="file"  class="custom-file-input"   name="imagen" accept="image/*">
-                                                <label class="custom-file-label" for="imagen5">Seleccionar imagen nueva... (Si no se desea editar dejarla asi)</label>
-                                            </div>
+                                            <textarea name="descripcion" required class="form-control" id="inputDescripProductoEditar" rows="3"></textarea>
+                                            <script>
+                                                CKEDITOR.replace('inputDescripProductoEditar');
+                                            </script>
                                         </div>
-                                        <small class="text-muted">JPG, PNG o GIF (máx. 5MB)</small>
                                     </div>
                                 </div>
                                 <div class="col">
+                                    <div class="form-group">
+                                        <label for="imagen5">Imagen producto</label>
+                                        <div class="image-dropzone">
+                                            <div class="dz-message">
+                                                <i class="fa fa-cloud-upload fa-3x mb-3 text-primary"></i>
+                                                <h5>Cambiar imagen</h5>
+                                            </div>
+                                        </div>
+                                        <input type="file" name="imagen" style="display: none;">
+                                    </div>
                                     <div class="form-group">
                                         <label for="exampleCiudad">Estado</label>
                                         <select name="estado" id="selectEstadoProductoEditar" required class="selectpicker" data-width="100%" data-live-search="true" data-style="btn-primary">
@@ -608,18 +612,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Descripcion</label>
-                                <div class="input-group has-validation">
-                                    <div class="input-group-prepend logoInput">
-                                        <span class="input-group-text"><i class="fa fa-pencil" aria-hidden="true"></i></span>
-                                    </div>
-                                    <textarea name="descripcion" required class="form-control" id="inputDescripProductoEditar" rows="3"></textarea>
-                                    <script>
-                                        CKEDITOR.replace('inputDescripProductoEditar');
-                                    </script>
-                                </div>
-                            </div>
+
 
                         </div>
                         <div class="modal-footer">
@@ -634,3 +627,58 @@
 </div>
 <script src="./Assets/js/preVisualizarImg.js"></script>
 <script src="./Assets/js/llenarInput.js"></script>
+
+<script>
+    // Deshabilitar auto-discover de Dropzone
+    Dropzone.autoDiscover = false;
+
+    // CKEditor
+    CKEDITOR.replace('descripcion');
+
+    // Dropzone reutilizable para cualquier elemento con clase "image-dropzone"
+    document.addEventListener('DOMContentLoaded', function() {
+        // Buscar todos los elementos con clase "image-dropzone"
+        const dropzoneElements = document.querySelectorAll('.image-dropzone');
+
+        dropzoneElements.forEach(function(element) {
+            // Crear Dropzone para cada elemento
+            const dropzone = new Dropzone(element, {
+                url: "/fake", // URL fake, no importa
+                autoProcessQueue: false, // No subir automáticamente
+                maxFiles: 1,
+                maxFilesize: 5,
+                acceptedFiles: ".jpeg,.jpg,.png,.gif",
+                addRemoveLinks: true,
+                dictRemoveFile: "Eliminar",
+
+                init: function() {
+                    const self = this;
+
+                    this.on("addedfile", function(file) {
+                        // Buscar el input file correspondiente en el mismo formulario
+                        const form = element.closest('form');
+                        const input = form.querySelector('input[type="file"][name="imagen"]');
+
+                        if (input) {
+                            const dt = new DataTransfer();
+                            dt.items.add(file);
+                            input.files = dt.files;
+                            console.log('Archivo asignado a:', input.id || input.name);
+                        }
+                    });
+
+                    this.on("removedfile", function(file) {
+                        // Limpiar input correspondiente
+                        const form = element.closest('form');
+                        const input = form.querySelector('input[type="file"][name="imagen"]');
+
+                        if (input) {
+                            input.value = '';
+                            console.log('Input limpiado:', input.id || input.name);
+                        }
+                    });
+                }
+            });
+        });
+    });
+</script>
