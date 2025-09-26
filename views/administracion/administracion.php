@@ -474,7 +474,13 @@
                                     <i class="fa fa-pencil"></i>
                                 </button>
                                 </button> <a href="./controller/productosController.php?accion=eliminar&id=<?= $p['id_producto'] ?>" class="btn btn-sm btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                                <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                <button type="button" 
+                                    data-toggle="modal" 
+                                    data-target="#informacionExtraProducto" 
+                                    class="btn btn-sm btn-primary btn-infoModal"
+                                    data-productoModal='<?= htmlspecialchars(json_encode($p), ENT_QUOTES) ?>'>
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+                                </button>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -622,63 +628,151 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="informacionExtraProducto" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg w-50" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h5 class="modal-title">
+                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                            Detalles del Producto
+                        </h5>
+                        <button type="button" class="close text-white" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="text-center">
+                                    <img id="viewProductImage" src="./Assets/img/productos/laptopLenovo.jpg" class="img-fluid product-image-preview rounded mb-3" alt="Producto">
+                                    <div id="viewProductStatus"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h4 id="viewProductName" class="mb-3"></h4>
+
+                                <div class="product-info-row">
+                                    <div class="row">
+                                        <div class="col-sm-4"><strong>ID:</strong></div>
+                                        <div class="col-sm-8" id="viewProductId"></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-info-row">
+                                    <div class="row">
+                                        <div class="col-sm-4"><strong>Categoría:</strong></div>
+                                        <div class="col-sm-8" id="viewProductCategory"></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-info-row">
+                                    <div class="row">
+                                        <div class="col-sm-4"><strong>Precio:</strong></div>
+                                        <div class="col-sm-8">
+                                            <h5 class="text-success mb-0" id="viewProductPrice"></h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-info-row">
+                                    <div class="row">
+                                        <div class="col-sm-4"><strong>Stock disponible:</strong></div>
+                                        <div class="col-sm-8" id="viewProductStock"></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-info-row">
+                                    <div class="row">
+                                        <div class="col-sm-4"><strong>SKU:</strong></div>
+                                        <div class="col-sm-8" id="viewProductSku"></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-info-row">
+                                    <div class="row">
+                                        <div class="col-sm-4"><strong>Marca:</strong></div>
+                                        <div class="col-sm-8" id="viewProductBrand"></div>
+                                    </div>
+                                </div>
+
+                                <div class="product-info-row">
+                                    <div class="row">
+                                        <div class="col-sm-4"><strong>Fecha creación:</strong></div>
+                                        <div class="col-sm-8" id="viewProductCreated"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12">
+                                <h6><strong>Descripción:</strong></h6>
+                                <p id="viewProductDescription" class="text-muted"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
     </div>
-    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-</div>
-<script src="./Assets/js/preVisualizarImg.js"></script>
-<script src="./Assets/js/llenarInput.js"></script>
+    <script src="./Assets/js/preVisualizarImg.js"></script>
+    <script src="./Assets/js/llenarInput.js"></script>
+    <script src="./Assets/js/llenarInfoModal.js"></script>
+    <script>
+        // Deshabilitar auto-discover de Dropzone
+        Dropzone.autoDiscover = false;
 
-<script>
-    // Deshabilitar auto-discover de Dropzone
-    Dropzone.autoDiscover = false;
+        // CKEditor
+        CKEDITOR.replace('descripcion');
 
-    // CKEditor
-    CKEDITOR.replace('descripcion');
+        // Dropzone reutilizable para cualquier elemento con clase "image-dropzone"
+        document.addEventListener('DOMContentLoaded', function() {
+            // Buscar todos los elementos con clase "image-dropzone"
+            const dropzoneElements = document.querySelectorAll('.image-dropzone');
 
-    // Dropzone reutilizable para cualquier elemento con clase "image-dropzone"
-    document.addEventListener('DOMContentLoaded', function() {
-        // Buscar todos los elementos con clase "image-dropzone"
-        const dropzoneElements = document.querySelectorAll('.image-dropzone');
+            dropzoneElements.forEach(function(element) {
+                // Crear Dropzone para cada elemento
+                const dropzone = new Dropzone(element, {
+                    url: "/fake", // URL fake, no importa
+                    autoProcessQueue: false, // No subir automáticamente
+                    maxFiles: 1,
+                    maxFilesize: 5,
+                    acceptedFiles: ".jpeg,.jpg,.png,.gif",
+                    addRemoveLinks: true,
+                    dictRemoveFile: "Eliminar",
 
-        dropzoneElements.forEach(function(element) {
-            // Crear Dropzone para cada elemento
-            const dropzone = new Dropzone(element, {
-                url: "/fake", // URL fake, no importa
-                autoProcessQueue: false, // No subir automáticamente
-                maxFiles: 1,
-                maxFilesize: 5,
-                acceptedFiles: ".jpeg,.jpg,.png,.gif",
-                addRemoveLinks: true,
-                dictRemoveFile: "Eliminar",
+                    init: function() {
+                        const self = this;
 
-                init: function() {
-                    const self = this;
+                        this.on("addedfile", function(file) {
+                            // Buscar el input file correspondiente en el mismo formulario
+                            const form = element.closest('form');
+                            const input = form.querySelector('input[type="file"][name="imagen"]');
 
-                    this.on("addedfile", function(file) {
-                        // Buscar el input file correspondiente en el mismo formulario
-                        const form = element.closest('form');
-                        const input = form.querySelector('input[type="file"][name="imagen"]');
+                            if (input) {
+                                const dt = new DataTransfer();
+                                dt.items.add(file);
+                                input.files = dt.files;
+                                console.log('Archivo asignado a:', input.id || input.name);
+                            }
+                        });
 
-                        if (input) {
-                            const dt = new DataTransfer();
-                            dt.items.add(file);
-                            input.files = dt.files;
-                            console.log('Archivo asignado a:', input.id || input.name);
-                        }
-                    });
+                        this.on("removedfile", function(file) {
+                            // Limpiar input correspondiente
+                            const form = element.closest('form');
+                            const input = form.querySelector('input[type="file"][name="imagen"]');
 
-                    this.on("removedfile", function(file) {
-                        // Limpiar input correspondiente
-                        const form = element.closest('form');
-                        const input = form.querySelector('input[type="file"][name="imagen"]');
-
-                        if (input) {
-                            input.value = '';
-                            console.log('Input limpiado:', input.id || input.name);
-                        }
-                    });
-                }
+                            if (input) {
+                                input.value = '';
+                                console.log('Input limpiado:', input.id || input.name);
+                            }
+                        });
+                    }
+                });
             });
         });
-    });
-</script>
+    </script>
