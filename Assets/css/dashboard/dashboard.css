@@ -180,6 +180,8 @@
         flex-direction: column;
         align-items: stretch;
         gap: 15px;
+        width: 100%;
+        max-width: 100%;
     }
     
     .inputFecha {
@@ -188,5 +190,29 @@
     
     .col-3 {
         align-items: stretch;
+        width: 100%;
+        max-width: 100%;
+    }
+    .col-3 .btn-generar {
+        width: 100%;
+    }
+    
+    .contenedorTotalReportes{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #productosPorCategoria{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 613px) {
+    .contenedorEstadisticas{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .targetaEstadistica{
+        max-width: 100% !important;
     }
 }

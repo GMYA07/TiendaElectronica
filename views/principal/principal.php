@@ -77,7 +77,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -110,7 +110,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -139,7 +139,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -207,7 +207,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -240,7 +240,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -269,7 +269,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -360,7 +360,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -393,7 +393,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -422,7 +422,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -490,7 +490,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -523,7 +523,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -552,7 +552,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -639,7 +639,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -672,7 +672,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -701,7 +701,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -769,7 +769,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -802,7 +802,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -831,7 +831,7 @@
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">

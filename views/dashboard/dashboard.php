@@ -3,7 +3,7 @@
  </div>
  <div class="container mb-5">
      <div class="row">
-         <div class="col-6 col-lg-3">
+         <div class="col-12 col-md-6 col-lg-3">
              <div class="container targetasTop p-2">
                  <div class="container-fluid pt-4">
                      <p class="tituloTargeta">Ventas Totales</p>
@@ -20,7 +20,7 @@
                  </div>
              </div>
          </div>
-         <div class="col-6 col-lg-3">
+         <div class="col-12 col-md-6 col-lg-3">
              <div class="container targetasTop p-2">
                  <div class="container-fluid pt-4">
                      <p class="tituloTargeta">Productos Vendidos</p>
@@ -37,7 +37,7 @@
                  </div>
              </div>
          </div>
-         <div class="col-6 col-lg-3">
+         <div class="col-12 col-md-6 col-lg-3">
              <div class="container targetasTop p-2">
                  <div class="container-fluid pt-4">
                      <p class="tituloTargeta">Productos Totales</p>
@@ -54,7 +54,7 @@
                  </div>
              </div>
          </div>
-         <div class="col-6 col-lg-3">
+         <div class="col-12 col-md-6 col-lg-3">
              <div class="container targetasTop p-2">
                  <div class="container-fluid pt-4">
                      <p class="tituloTargeta">Clientes Nuevos</p>
@@ -75,7 +75,7 @@
  </div>
  <div class="container mt-5 mb-5">
      <div class="row">
-         <div class="col-8">
+         <div class="col-12 col-lg-8">
              <div class="container contenerdorGraficasTab">
                  <h2 style="text-align: center; color: #333; margin-bottom: 20px;">Ventas por Mes 2024</h2>
                  <div class="container">
@@ -97,7 +97,7 @@
                  </div>
              </div>
              <div class="container mt-5 ">
-                 <div class="row">
+                 <div class="row contenedorTotalReportes">
                      <div class="col-9 contenedorFechas">
                          <div class="fecha-grupo">
                              <label class="fecha-label">Inicio Reporte</label>
@@ -114,11 +114,11 @@
                  </div>
              </div>
          </div>
-         <div class="col-4 ">
+         <div class="col-12 col-lg-4 ">
              <div class="container contenerdorGraficasTab">
                  <h3 style="text-align: center; color: #333; margin-bottom: 20px;">Productos por categoria</h3>
                  <div class="container">
-                     <canvas id="productosPorCategoria" style="width:100%;max-width:300px"></canvas>
+                     <canvas id="productosPorCategoria" style="width:100%;max-width:700px"></canvas>
                  </div>
              </div>
              <div class="container d-flex justify-content-center align-items-center mt-5 targetasTop targetaBot pt-2">

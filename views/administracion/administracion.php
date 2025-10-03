@@ -304,7 +304,7 @@
             <div class="container  d-flex justify-content-start">
                 <h1 class=" text-center"><i class="fa fa-archive" aria-hidden="true"></i> Gestion de productos</h1>
             </div>
-            <div class="container  d-flex justify-content-end" style="gap:3%;">
+            <div class="container  d-flex justify-content-end contenedorBotonesCrudExternos" style="gap:3%;">
                 <button type="button" class="btn bg-primary text-white" data-toggle="modal" data-target="#agregarProducto"> <i class="fa fa-plus" aria-hidden="true"></i> Agregar Producto</button>
                 <button type="button" class="btn bg-primary text-white" data-toggle="modal" data-target="#agregarProducto"> <i class="fa fa-upload" aria-hidden="true"></i> Exportar Tabla</button>
             </div>
@@ -465,7 +465,7 @@
                             <td><?= $p['nombre'] ?></td>
                             <td><?= $p['stock'] ?></td>
                             <td ><span class="badge-estado <?= strtolower($p['estado']) ?>"><?= $p['estado'] ?></span></td>
-                            <td>
+                            <td class="tdAcciones">
                                 <button type="button"
                                     data-toggle="modal"
                                     data-target="#editarProducto"
