@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid contenedorMenu">
-        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa fa-bars" aria-hidden="true" style="color: white;"></i>
         </button>
         <a class="navbar-brand contenedorLogo" href="./index.php?ruta=inicio">
             <img class="logoNav" src="./Assets/img/logoEmpresa.png" alt="">

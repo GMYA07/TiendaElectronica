@@ -4,7 +4,8 @@ $rutasPermitidas = [
     'inicio' => './views/principal/principal.php',
     'administracion' => './controller/productosController.php',
     'catalogo' => './views/catalogo/celular.php',
-    'dashboard' => './views/dashboard/dashboard.php'
+    'dashboard' => './views/dashboard/dashboard.php',
+    'producto' => './views/producto/producto.php'
 ];
 
 $ruta = $_GET['ruta'] ?? 'inicio';

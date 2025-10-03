@@ -31,7 +31,7 @@
         <div class="carousel-item active">
             <div class="container-fluid w-75">
                 <div class="row">
-                    <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-md-6 col-lg-3 my-4 d-flex justify-content-center align-items-center">
                         <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <div class="price-badge">
@@ -64,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-md-6 col-lg-3 my-4 d-flex justify-content-center align-items-center">
                         <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-md-6 col-lg-3 my-4 d-flex justify-content-center align-items-center">
                         <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="discount-badge">-64% OFF</div>
                             <div class="price-badge">
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col my-4 d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-md-6 col-lg-3 my-4 d-flex justify-content-center align-items-center">
                         <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
