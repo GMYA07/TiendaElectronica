@@ -96,6 +96,23 @@
                      <div class="stat-label">Venta Máxima</div>
                  </div>
              </div>
+             <div class="container mt-5 ">
+                 <div class="row">
+                     <div class="col-9 contenedorFechas">
+                         <div class="fecha-grupo">
+                             <label class="fecha-label">Inicio Reporte</label>
+                             <input type="date" class="inputFecha" value="2025-10-02">
+                         </div>
+                         <div class="fecha-grupo">
+                             <label class="fecha-label">Final</label>
+                             <input type="date" class="inputFecha" value="2025-10-02">
+                         </div>
+                     </div>
+                     <div class="col-3">
+                         <button class="btn-generar"><i class="fa fa-file" aria-hidden="true"></i> Generar Reporte</button>
+                     </div>
+                 </div>
+             </div>
          </div>
          <div class="col-4 ">
              <div class="container contenerdorGraficasTab">

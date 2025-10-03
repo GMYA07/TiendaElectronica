@@ -540,7 +540,7 @@
     position: absolute;
     top: 15px;
     right: -5px;
-    background: linear-gradient(135deg, #28a745, #20c997);
+    background: linear-gradient(135deg, #0a141d, #0a141d);
     color: white;
     padding: 8px 15px 8px 20px;
     border-radius: 25px 0 0 25px;
@@ -571,10 +571,29 @@
     bottom: -8px;
     width: 0;
     height: 0;
-    border-right: 8px solid #20c997;
+    border-right: 8px solid #0a141d;
     border-bottom: 8px solid transparent;
 }
 
+.contenedorBotonesBotCard{
+    gap: 5%;
+}
+
+.contenedorBotonesBotCard a {
+    width: 5rem;
+    border-radius: 50px;
+}
+
+.contenedorBotonesBotCard-botonVer{
+    background-color: #0a1a2a;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
 
 /*Estilos fotter*/
 

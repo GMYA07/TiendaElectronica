@@ -86,3 +86,107 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     border: 1px solid rgba(0,0,0,0.05);
 }
+
+.contenedorFechas{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.fecha-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fecha-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #64748b;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.inputFecha{
+    width: 100%;
+    min-width: 180px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: #ffffff;
+    color: #2d3748;
+    border: 2px solid #e2e8f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.inputFecha:hover{
+    border-color: #cbd5e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inputFecha:focus{
+    border-color: #4a7fb8;
+    box-shadow: 0 0 0 3px rgba(74, 127, 184, 0.2);
+}
+
+/* Contenedor del botón para alinearlo */
+.col-3 {
+    display: flex;
+    align-items: flex-end; /* Alinea el botón con los inputs */
+    padding-bottom: 0;
+}
+
+.btn-generar {
+    width: 100%;
+    height: 54px; /* Misma altura que los inputs */
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    background: #4a7fb8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 20px; /* Mismo margin-bottom que contenedorFechas */
+}
+
+.btn-generar:hover {
+    background: #3d6a9e;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+}
+
+.btn-generar:active {
+    background: #355a84;
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .contenedorFechas {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+    }
+    
+    .inputFecha {
+        min-width: 100%;
+    }
+    
+    .col-3 {
+        align-items: stretch;
+    }
+}

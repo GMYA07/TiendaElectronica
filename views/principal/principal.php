@@ -40,18 +40,15 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -60,8 +57,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-50" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -71,11 +69,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -91,8 +86,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -106,11 +102,8 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -126,8 +119,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -137,11 +131,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -157,8 +148,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -178,18 +170,15 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -198,8 +187,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -209,11 +199,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -229,8 +216,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -244,11 +232,8 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -264,8 +249,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -275,11 +261,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -295,8 +278,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -339,18 +323,15 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -359,8 +340,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -370,11 +352,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -390,8 +369,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -405,11 +385,8 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -425,8 +402,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -436,11 +414,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -456,8 +431,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -477,18 +453,15 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -497,8 +470,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -508,11 +482,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -528,8 +499,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -543,11 +515,8 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -563,8 +532,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -574,11 +544,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -594,8 +561,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -634,18 +602,15 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -654,8 +619,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -665,11 +631,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -685,8 +648,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -700,11 +664,8 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -720,8 +681,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -731,11 +693,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -751,8 +710,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -772,18 +732,15 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
                                                 <i class="fa fa-minus" aria-hidden="true"></i>
                                             </button>
                                         </div>
-                                        <input type="text" class="form-control text-center text-primary font-weight-bold"
+                                        <input type="text" class="form-control text-center bg-dark text-white font-weight-bold"
                                             id="quantity" value="1" readonly style="max-width: 80px;">
                                         <div class="input-group-append">
                                             <button class="btn btn-outline-primary" type="button" id="increaseBtn" onclick="changeQuantity(1)">
@@ -792,8 +749,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -803,11 +761,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -823,8 +778,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -838,11 +794,8 @@
                             </div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -858,8 +811,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
@@ -869,11 +823,8 @@
                             <div class="price-badge">$1,299</div>
                             <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                             <div class="card-body p-0">
-                                <h5 class="card-title mt-3" style="font-size: 1.5rem;">Laptop Lenovo</h5>
-                                <div class="container-fluid descripcion p-2">
-                                    <button type="button" class="btn btn-link btnCard"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Ver mas detalles</button>
-                                </div>
-                                <div class="mb-2">
+                                <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                                <div class="mb-3">
                                     <div class="input-group input-group-sm justify-content-center">
                                         <div class="input-group-prepend">
                                             <button class="btn btn-outline-primary" type="button" id="decreaseBtn" onclick="changeQuantity(-1)">
@@ -889,8 +840,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container-fluid d-flex justify-content-center">
-                                    <a href="#" class="btn btn-primary mt-2 mb-3"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
+                                <div class="container-fluid d-flex justify-content-center contenedorBotonesBotCard px-4">
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-25 contenedorBotonesBotCard-botonVer" data-toggle="tooltip" data-placement="bottom" title="Ver mas informacion"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="./index.php?ruta=./views/producto/producto" class="btn btn-primary mt-2 mb-3 w-75" data-toggle="tooltip" data-placement="bottom" title="Agregar al carrito"><i class="fa fa-cart-plus" aria-hidden="true"></i> Agregar al carrito</a>
                                 </div>
                             </div>
                         </div>
