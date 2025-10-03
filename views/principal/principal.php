@@ -8,7 +8,7 @@
                     <h1 class="hero-title">Tecnología de Última Generación</h1>
                     <p class="hero-subtitle">Descubre los mejores productos tecnológicos con la mejor relación calidad-precio del mercado</p>
                     <a href="#products" class="btn btn-hero">
-                        <i class="fas fa-rocket mr-2"></i>Explorar Productos
+                        <i class="fa fa-rocket mr-2"></i>Explorar Productos
                     </a>
                 </div>
             </div>
@@ -304,8 +304,8 @@
     <h2>Novedades</h2>
 </div>
 <div class="container contenedorBotones">
-    <button type="button" class="btn btn-primary">Celulares</button>
-    <button type="button" class="btn btn-primary ">Gaming</button>
+    <button type="button" class="btnCategorias">Celulares</button>
+    <button type="button" class="btnCategorias">Gaming</button>
 </div>
 
 

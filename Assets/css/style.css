@@ -366,7 +366,7 @@
             top: 50%;
             transform: translateY(-50%);
             opacity: 0.1;
-            z-index: 2;
+            z-index: 1;
         }
 
 /* Estilos personalizados para los botones del carousel */
@@ -412,7 +412,36 @@
     max-width: 100%;
     padding-left: 5%;
     margin-bottom: 3%;
-    padding-left: 11%;
+    padding-left: 11%;    
+}
+
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.btnCategorias{
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    background-color:  #007bff;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+.btnCategorias:hover {
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
 }
 
 .contenedorTitulo h2{
@@ -688,7 +717,8 @@
         display: flex;              
         justify-content: center;  
         align-items: center;   
-        box-shadow: 5px 5px 5px gray;  
+        box-shadow: 5px 5px 5px gray; 
+        cursor: pointer; 
     }
 
     .circle:hover{
@@ -709,6 +739,7 @@
 
     .contenedorCat{
         gap: 3%;
+        
     }
 
 
@@ -734,6 +765,7 @@
 
 .contenedorBeneficios-interno-beneficio{
     background-color: black;
+    cursor: pointer;
     width: 30%;
     height: auto;
     color: white;
@@ -749,6 +781,16 @@
     -moz-border-radius: 1em;
     -ms-border-radius: 1em;
     -o-border-radius: 1em;
+    transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+}
+
+.contenedorBeneficios-interno-beneficio:hover{
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
 }
 
 .contenedorBeneficios-interno-beneficio i{
