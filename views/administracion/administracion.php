@@ -445,7 +445,7 @@
             </div>
         </div>
 
-        <div class="container table-responsive mt-3 mb-5">
+        <div class="container table-responsive mt-3 mb-5 contenedorTabla">
             <table id="example2" class="table table-striped w-100 mt-2 mb-3 tablaEstilos">
                 <thead>
                     <tr class="encabezadoTabla">
@@ -464,7 +464,7 @@
                             <td><?= $p['sku'] ?></td>
                             <td><?= $p['nombre'] ?></td>
                             <td><?= $p['stock'] ?></td>
-                            <td><?= $p['estado'] ?></td>
+                            <td ><span class="badge-estado <?= strtolower($p['estado']) ?>"><?= $p['estado'] ?></span></td>
                             <td>
                                 <button type="button"
                                     data-toggle="modal"
