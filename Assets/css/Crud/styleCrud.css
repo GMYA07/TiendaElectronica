@@ -230,6 +230,7 @@ table.dataTable.table.table-striped > tbody > tr:nth-of-type(2n+1) > * {
     }
 }
 
+
 @media(max-width:767px){
     .contenedorAcciones{
         display: flex;

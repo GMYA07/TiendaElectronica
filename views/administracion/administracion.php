@@ -705,9 +705,13 @@
                         </div>
                         <hr>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-12 col-lg-6">
                                 <h6><strong>Descripción:</strong></h6>
                                 <p id="viewProductDescription" class="text-muted"></p>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <h6><strong>Código de barras:</strong></h6>
+                                <div id="viewProductBarcode" class="text-center"></div>
                             </div>
                         </div>
                     </div>

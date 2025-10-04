@@ -21,6 +21,9 @@ function llenarInputProductoModal(producto) {
     document.getElementById('viewProductBrand').textContent = transformarIDMarca(producto.id_marca) || producto.id_marca || '';
     document.getElementById('viewProductCreated').textContent = producto.fecha_creacion ? formatearFecha(producto.fecha_creacion) : '';
 
+    // Llenar código de barras
+    crearCodigoBarras(producto.id_producto + '-' + producto.sku);
+
     // Llenar imagen si existe
     if (producto.imagen_url) {
         document.getElementById('viewProductImage').src = './Assets/img/productos/' + producto.imagen_url;
@@ -68,5 +71,29 @@ function formatearFecha(fecha) {
         });
     } catch (error) {
         return fecha; // Retorna la fecha original si no se puede formatear
+    }
+}
+
+async function crearCodigoBarras(idProductoSku) {
+    
+    // Llamar a PHP enviando el ID
+    const formData = new FormData();
+    formData.append('accion', 'crearCodigoBarras'); // ← AQUÍ ENVÍAS DATOS A PHP
+    formData.append('id', idProductoSku); // ← AQUÍ ENVÍAS DATOS A PHP
+    
+    try {
+        const response = await fetch('/TiendaElectronica/utils/barcode.php', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const data = await response.json();
+        
+        // Mostrar los datos en el modal
+        document.getElementById('viewProductBarcode').innerHTML = data.codigoBarras;
+        
+    } catch (error) {
+        document.getElementById('viewProductBarcode').innerHTML = 
+            '<p class="text-danger">Error al cargar datos</p>';
     }
 }

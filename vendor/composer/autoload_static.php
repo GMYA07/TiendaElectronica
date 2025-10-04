@@ -49,7 +49,8 @@ class ComposerStaticInit5ce13f389270716aa74fac6c4293dda4
         ),
         'Picqer\\Barcode\\' => 
         array (
-            0 => __DIR__ . '/..' . '/leeroy/barcode-generator/src',
+            0 => __DIR__ . '/..' . '/picqer/php-barcode-generator/src',
+            1 => __DIR__ . '/..' . '/leeroy/barcode-generator/src',
         ),
         'Mpdf\\PsrLogAwareTrait\\' => 
         array (
