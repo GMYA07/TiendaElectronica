@@ -51,4 +51,9 @@
     .modal-dialog{
         max-width: 100%;
     }
+    .contenedorBotonesProducto{
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 25% !important;
+    }
 }

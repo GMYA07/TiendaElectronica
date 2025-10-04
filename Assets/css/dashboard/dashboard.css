@@ -174,6 +174,12 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*Estilos del calendario*/
+.flatpickr-calendar.inline {
+    height: 300px !important;
+    box-shadow: none !important;
+}
+
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
     .contenedorFechas {
@@ -205,6 +211,10 @@
     #productosPorCategoria{
         max-width: 500px;
     }
+    .flatpickr-calendar.inline {
+        width: 100% !important;
+        box-shadow: none !important;
+    }
 }
 
 @media (max-width: 613px) {
@@ -216,3 +226,4 @@
         max-width: 100% !important;
     }
 }
+

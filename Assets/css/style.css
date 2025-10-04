@@ -119,10 +119,7 @@
             color: #00d4ff !important;
             box-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
             border-radius: 5px;
-            -webkit-border-radius:;
-            -moz-border-radius:;
-            -ms-border-radius:;
-            -o-border-radius:;
+            
 }
 
         /* Animación Scale para dropdown */
@@ -161,10 +158,7 @@
             -moz-transition: all 0.3s ease;
             -ms-transition: all 0.3s ease;
             -o-transition: all 0.3s ease;
-            -webkit-border-radius:;
-            -moz-border-radius:;
-            -ms-border-radius:;
-            -o-border-radius:;
+            
 }
 
         .dropdown:hover .dropdown-menu {
@@ -185,10 +179,7 @@
             -moz-transition: all 0.3s ease;
             -ms-transition: all 0.3s ease;
             -o-transition: all 0.3s ease;
-            -webkit-border-radius:;
-            -moz-border-radius:;
-            -ms-border-radius:;
-            -o-border-radius:;
+            
 }
 
         .dropdown-item:hover {
@@ -206,10 +197,7 @@
             transition: all 0.3s ease;
             border-radius: 50%;
             position: relative;
-            -webkit-transition:;
-            -moz-transition:;
-            -ms-transition:;
-            -o-transition:;
+            
 }
 
         .botonAccion:hover {
@@ -223,10 +211,7 @@
 
         .botonAccion i {
             transition: all 0.3s ease;
-            -webkit-transition:;
-            -moz-transition:;
-            -ms-transition:;
-            -o-transition:;
+            
 }
 
         .botonAccion:hover i {
@@ -243,10 +228,7 @@
         /* Animación para el logo */
         .logoNav {
             transition: all 0.3s ease;
-            -webkit-transition:;
-            -moz-transition:;
-            -ms-transition:;
-            -o-transition:;
+            
 }
 
         .contenedorLogo:hover .logoNav {
@@ -261,10 +243,7 @@
         .navbar-toggler {
             transition: all 0.3s ease;
             border-radius: 10px;
-            -webkit-transition:;
-            -moz-transition:;
-            -ms-transition:;
-            -o-transition:;
+            
 }
 
         .navbar-toggler:hover {
@@ -315,7 +294,7 @@
                 background: rgba(0, 0, 0, 0.95);
                 border-radius: 0 0 10px 10px;
                 margin-top: 5px;
-                z-index: 1050 !important; /* Bootstrap usa z-index 1040 para modals */
+                z-index: 1040 !important; /* Bootstrap usa z-index 1040 para modals */
             }
     
             /* Opcional: Añadir un backdrop blur */
@@ -871,32 +850,70 @@
     margin-bottom: 5%;
 }
 
-.contenedorFiltrador{
-    width: 20%;
-    max-width: 20%;
-    
-}
-
-.formFiltrar{
-    border: 0.5em solid black;
-    padding: 5%;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
 
 .contenedorProductos{
     width: 80%;
     max-width: 80%;
 }
 
-.contenedorProductos-fila{
+.filtroProductos{
+    width: 20%;
+    max-width: 20%;
+    padding: 2%;
+    box-shadow: 32px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    height: fit-content;
+}
+
+.tituloFiltro{
+    font-size: clamp(0.8rem, 1.5rem, 2rem);
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contenedorInputLabel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    border-bottom: #007bbf solid 0.1rem;
+    padding-bottom: 5%;
+}
+
+.price-row{
     display: flex;
     flex-direction: row;
     gap: 5%;
-    margin-top: 5%;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.btn-filter{
+    width: 100%;
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+}
+.btn-filter:hover{
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+}
+
+.form-label{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+@media(max-width:1141px){
+    .contenedorGeneralCatalogo{
+        flex-direction: column;
+    }
+    .filtroProductos{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 5%;
+    }
 }
 
 /*Estilos para el login*/
@@ -994,18 +1011,7 @@
     }
 
     /*Parte catalogo*/
-    .contenedorGeneralCatalogo, .contenedorProductos-fila{
-        flex-direction: column;
-    }
-
-    .contenedorFiltrador{
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .cardCatalogo{
-        margin-top: 5%;
-    }
+    
 
     /*Parte login*/
     .contenedorGeneralInicioSesion{

@@ -629,7 +629,7 @@
             </div>
         </div>
         <div class="modal fade" id="informacionExtraProducto" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg w-50" role="document">
+            <div class="modal-dialog modal-lg w-50 modalExtraInfo" role="document">
                 <div class="modal-content">
                     <div class="modal-header bg-info text-white">
                         <h5 class="modal-title">

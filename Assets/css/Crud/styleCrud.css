@@ -242,3 +242,11 @@ table.dataTable.table.table-striped > tbody > tr:nth-of-type(2n+1) > * {
         align-items: center !important;
     }
 }
+
+@media (max-width:575px){
+    .modalExtraInfo{
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 5% !important;
+    }
+}

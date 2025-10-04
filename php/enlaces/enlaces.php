@@ -8,6 +8,8 @@
 
 <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" />
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -26,8 +28,12 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
 
 <link rel="stylesheet" href="./Assets/css/style.css">
 <link rel="stylesheet" href="./Assets/css/productos/styleProductos.css">
 <link rel="stylesheet" href="./Assets/css/Crud/styleCrud.css">
 <link rel="stylesheet" href="./Assets/css/dashboard/dashboard.css">
+
+
