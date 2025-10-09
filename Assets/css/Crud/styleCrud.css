@@ -22,6 +22,7 @@ table.dataTable.table.table-striped > tbody > tr:nth-of-type(2n+1) > * {
             padding: 18px 15px !important;
             border: none !important;
             vertical-align: middle;
+            text-align: center !important;
 }
 
 .encabezadoTabla th:first-child {

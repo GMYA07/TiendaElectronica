@@ -3,7 +3,6 @@ require_once __DIR__ . '/../config/db.php';
 require_once __DIR__ . '/../model/productosModel.php';
 require_once __DIR__ . '/../utils/ImageUploader.php';
 
-
 // Aquí puedes usar $productosModel para llamar a los métodos del modelo
 $db = (new Database())->conectar();
 $productosModel = new Productos($db);
@@ -12,22 +11,21 @@ $accion = '';
 
 if (isset($_POST['accion']) || isset($_GET['accion'])) {
 
-    if(isset($_GET['accion'])){
+    if (isset($_GET['accion'])) {
         $accion = $_GET['accion'];
-    }else{
+    } else {
         $accion = $_POST['accion'];
     }
-
-}elseif (isset($_GET['listar'])) {
+} elseif (isset($_GET['listar'])) {
     $accion = 'listar';
 }
 
-switch($accion){
+switch ($accion) {
     case 'agregar':
 
         $NombreImagen = ImageUploader::subirImagen($_FILES['imagen']);
 
-        if(empty($NombreImagen)){
+        if (empty($NombreImagen)) {
             echo "<script>alert('Error al subir la imagen');</script>";
             exit;
         }
@@ -47,12 +45,11 @@ switch($accion){
         ];
 
         if ($productosModel->insertarProducto($informacion)) {
-            echo "<script>alert('Producto agregado');</script>";
-            header("Location: ../index.php?ruta=administracion");
+            header("Location: ../index.php?ruta=administracion&msg=agregado");
         } else {
-            echo "<script>alert('Error al agregar el producto');</script>";
+            header("Location: ../index.php?ruta=administracion&msg=error");
         }
-
+        exit();
         break;
     case 'listar':
         $productos = $productosModel->obtenerProductos();
@@ -62,11 +59,11 @@ switch($accion){
 
         $NombreImagen = ImageUploader::subirImagen($_FILES['imagen']);
 
-        if(empty($NombreImagen)){
+        if (empty($NombreImagen)) {
             $NombreImagen = $_POST['imagenNueva'];
         }
 
-        
+
         $informacion = [
             'id_producto' => $_POST['id_producto'],
             'nombre' => $_POST['nombre'],
@@ -81,29 +78,29 @@ switch($accion){
             'fecha_creacion' => $_POST['fecha_creacion'],
             'estado' => $_POST['estado']
         ];
-        
-        if ($productosModel->actualizarProducto($informacion)) {
-            echo "<script>alert('Producto actualizado');</script>";
-        } else {
-            echo "<script>alert('Error al actualizar el producto');</script>";
-        }
 
-        header("Location: ../index.php?ruta=administracion");
+        if ($productosModel->actualizarProducto($informacion)) {
+            header("Location: ../index.php?ruta=administracion&msg=actualizado");
+        } else {
+            header("Location: ../index.php?ruta=administracion&msg=error");
+        }
+        exit();
         break;
 
     case 'eliminar':
         $id = $_GET['id'];
 
-        $productosModel->eliminarProducto($id);
-       
-        echo "<script>alert('Funcionalidad de eliminar no implementada. ID del producto a eliminar: $id');</script>";
-        header("Location: ../index.php?ruta=administracion");
+        $resultado = $productosModel->eliminarProducto($id);
+
+        if ($resultado) {
+            header("Location: ../index.php?ruta=administracion&msg=eliminado");
+        } else {
+            header("Location: ../index.php?ruta=administracion&msg=error");
+        }
+        exit();
         break;
 
     default:
         echo "<script>alert('Ocurrió un error');</script>";
         break;
 }
-
-
-?>

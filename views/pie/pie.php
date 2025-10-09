@@ -1,3 +1,25 @@
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<?php if(isset($_GET['msg'])): ?>
+<script>
+    <?php if($_GET['msg'] == 'eliminado'): ?>
+        Swal.fire({
+            icon: 'success',
+            title: '¡Éxito!',
+            text: 'Producto eliminado correctamente',
+            confirmButtonColor: '#3085d6'
+        });
+    <?php elseif($_GET['msg'] == 'error'): ?>
+        Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: 'No se pudo eliminar el producto',
+            confirmButtonColor: '#d33'
+        });
+    <?php endif; ?>
+</script>
+<?php endif; ?>
+
 <footer class="pie-pagina">
     <div class="grupo-1">
         <div class="box">

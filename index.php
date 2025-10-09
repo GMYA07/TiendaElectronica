@@ -11,6 +11,7 @@
 <body>
     <?php include './views/cabecera/cabecera.php';?>
     <?php include './php/redireccion/redireccion.php';?>
+    <?php include './views/alertas/alertas.php'; ?>
     <?php include './views/pie/pie.php';?>
 </body>
 

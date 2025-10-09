@@ -121,9 +121,9 @@
                      <canvas id="productosPorCategoria" style="width:100%;max-width:700px"></canvas>
                  </div>
              </div>
-             <div class="container d-flex justify-content-center align-items-center mt-5 targetasTop targetaBot pt-2">
-                 <h3><i class="fa fa-pencil" aria-hidden="true"></i> Administrar Tablas</h3>
-             </div>
+             <a href="./index.php?ruta=administracion" class="container d-flex justify-content-center align-items-center mt-5 targetasTop targetaBot pt-2">
+                 <h3><i class="fa fa-pencil text-light" aria-hidden="true"></i> Administrar Tablas</h3>
+             </a>
              <div class="container d-flex justify-content-center align-items-center mt-3">
                  <input type="text" id="inlineCalendar" style="display: none; width: 100%; height: 350px !important;" />
              </div>
