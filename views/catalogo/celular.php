@@ -1,5 +1,5 @@
 <div class="container pt-5 contenedorTitulo">
-    <h1 class="text-center"><b>Celulares</b></h1>
+    <h1 class="text-center"><b>Computacion</b></h1>
 </div>
 <div class="container contenedorGeneralCatalogo">
     <aside class="filtroProductos mt-5">
@@ -91,9 +91,9 @@
             <div class="col-12 col-md-6 col-lg-3 my-4 d-flex justify-content-center align-items-center">
                 <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                     <div class="price-badge">$1,299</div>
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                    <img src="./Assets/img/productos/laptopHp.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop HP</h5>
                         <div class="mb-3">
                             <div class="input-group input-group-sm justify-content-center">
                                 <div class="input-group-prepend">
@@ -124,9 +124,9 @@
                         <span class="price-current">$200</span>
                         <span class="price-old">$550</span>
                     </div>
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                    <img src="./Assets/img/productos/laptopAmd.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop AMD</h5>
                         <div class="mb-3">
                             <div class="input-group input-group-sm justify-content-center">
                                 <div class="input-group-prepend">
@@ -153,9 +153,9 @@
             <div class="col-12 col-md-6 col-lg-3 my-4 d-flex justify-content-center align-items-center">
                 <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                     <div class="price-badge">$1,299</div>
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                    <img src="./Assets/img/productos/macBook.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Macbook</h5>
                         <div class="mb-3">
                             <div class="input-group input-group-sm justify-content-center">
                                 <div class="input-group-prepend">
@@ -188,9 +188,9 @@
                         <span class="price-current">$200</span>
                         <span class="price-old">$550</span>
                     </div>
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                    <img src="./Assets/img/productos/monitorDell.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Monitor Dell</h5>
                         <div class="mb-3">
                             <div class="input-group input-group-sm justify-content-center">
                                 <div class="input-group-prepend">
@@ -217,9 +217,9 @@
             <div class="col-12 col-md-6 col-lg-3 my-4 d-flex justify-content-center align-items-center">
                 <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                     <div class="price-badge">$1,299</div>
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                    <img src="./Assets/img/productos/mouseGamer.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Mouse Gaming</h5>
                         <div class="mb-3">
                             <div class="input-group input-group-sm justify-content-center">
                                 <div class="input-group-prepend">
@@ -250,9 +250,9 @@
                         <span class="price-current">$200</span>
                         <span class="price-old">$550</span>
                     </div>
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                    <img src="./Assets/img/productos/tecladoGamer.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Teclado Gamer</h5>
                         <div class="mb-3">
                             <div class="input-group input-group-sm justify-content-center">
                                 <div class="input-group-prepend">
@@ -279,9 +279,9 @@
             <div class="col-12 col-md-6 col-lg-3 my-4 d-flex justify-content-center align-items-center">
                 <div class="card border-0" style="width: 100%; min-width: 12rem; max-width: 24rem; min-height: 100%;">
                     <div class="price-badge">$1,299</div>
-                    <img src="./Assets/img/productos/laptopLenovo.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
+                    <img src="./Assets/img/productos/audifonosGamers.jpg" class="card-img-top product-image" style="height: 180px; border-radius: 15px 15px 0 0 ;" alt="...">
                     <div class="card-body p-0">
-                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Laptop Lenovo</h5>
+                        <h5 class="card-title mt-3" style="font-size: 1.5rem; font-weight:bold;">Audifonos Gamer</h5>
                         <div class="mb-3">
                             <div class="input-group input-group-sm justify-content-center">
                                 <div class="input-group-prepend">
